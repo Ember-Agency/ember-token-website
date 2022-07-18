@@ -1,25 +1,47 @@
-import logo from './logo.svg';
-import './App.css';
+import logo from "./assets/logo.svg";
+import "./styles/App.scss";
+import { Welcome } from "./Home";
 
-function App() {
+export const App = () => {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Header />
+      <Welcome />
     </div>
   );
-}
+};
 
-export default App;
+export const Header = () => {
+  return (
+    <header>
+      <img src={logo} className="logo" alt="Ember Agency" />
+      <Navigation />
+    </header>
+  );
+};
+
+export const Navigation = () => {
+  return (
+    <nav>
+      <ul>
+        <li>
+          <a href="/">Welcome</a>
+        </li>
+        <li>
+          <a href="/">Offerings</a>
+        </li>
+        <li>
+          <a href="/">Whitepaper</a>
+        </li>
+        <li>
+          <a href="/">Token</a>
+        </li>
+        <li>
+          <a className="btn" href="/">
+            Contact
+          </a>
+        </li>
+      </ul>
+    </nav>
+  );
+};
