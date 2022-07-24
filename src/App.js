@@ -1,3 +1,4 @@
+import { Routes, Route } from "react-router-dom";
 import logo from "./assets/logo.svg";
 import "./styles/App.scss";
 import { Welcome } from "./Home";
@@ -6,7 +7,9 @@ export const App = () => {
   return (
     <div className="App">
       <Header />
-      <Welcome />
+      <Routes>
+        <Route path="/" element={<Welcome />} />
+      </Routes>
     </div>
   );
 };
