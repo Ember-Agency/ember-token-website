@@ -18,8 +18,8 @@ export const Welcome = () => {
         <DiscordLink />
         <TelegramLink />
       </div>
-      <div className="col">
-        <img src={ember} className="large-ember" alt="Ember graphic" />
+      <div className="large-ember col">
+        <img src={ember} alt="Ember graphic" />
       </div>
     </article>
   );

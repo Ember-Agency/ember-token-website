@@ -5,12 +5,12 @@ import { Welcome } from "./Home";
 
 export const App = () => {
   return (
-    <div className="App">
+    <main className="app">
       <Header />
       <Routes>
         <Route path="/" element={<Welcome />} />
       </Routes>
-    </div>
+    </main>
   );
 };
 
@@ -20,7 +20,7 @@ export const Header = () => {
       <Link to="/">
         <img src={logo} className="logo" alt="Ember Agency" />
       </Link>
-      <Navigation />
+      {/* <Navigation /> */}
     </header>
   );
 };
