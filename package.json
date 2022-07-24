@@ -1,6 +1,6 @@
 {
   "name": "ember-token-website",
-  "homepage": "https://ember-agency.github.io/ember-token-website/",
+  "homepage": "https://ember-agency.github.io/ember-token-website",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
