@@ -1,5 +1,6 @@
 import ember from "./assets/ember-icon.svg";
 import "./styles/Home.scss";
+import { DiscordLink, TelegramLink } from "./App";
 
 export const Welcome = () => {
   return (
@@ -14,9 +15,8 @@ export const Welcome = () => {
           governance, and a deep-rooted desire to bring education, stability,
           and trust to the blockchain industry.
         </p>
-        <a href="/" className="btn">
-          Work with us
-        </a>
+        <DiscordLink />
+        <TelegramLink />
       </div>
       <div className="col">
         <img src={ember} className="large-ember" alt="Ember graphic" />
