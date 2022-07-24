@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/ember-token-website/static/css/main.4351d4ba.css",
-    "main.js": "/ember-token-website/static/js/main.1c40bd9e.js",
+    "main.css": "/ember-token-website/static/css/main.2778a0aa.css",
+    "main.js": "/ember-token-website/static/js/main.36998a2e.js",
     "static/js/787.ec9e85bc.chunk.js": "/ember-token-website/static/js/787.ec9e85bc.chunk.js",
     "static/media/logo.svg": "/ember-token-website/static/media/logo.79ad006b788ab0cd4bf2c4a82ea52560.svg",
+    "static/media/ember-icon.svg": "/ember-token-website/static/media/ember-icon.f47431953ac3c867d8083d7d2da66066.svg",
     "index.html": "/ember-token-website/index.html",
-    "main.4351d4ba.css.map": "/ember-token-website/static/css/main.4351d4ba.css.map",
-    "main.1c40bd9e.js.map": "/ember-token-website/static/js/main.1c40bd9e.js.map",
+    "main.2778a0aa.css.map": "/ember-token-website/static/css/main.2778a0aa.css.map",
+    "main.36998a2e.js.map": "/ember-token-website/static/js/main.36998a2e.js.map",
     "787.ec9e85bc.chunk.js.map": "/ember-token-website/static/js/787.ec9e85bc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4351d4ba.css",
-    "static/js/main.1c40bd9e.js"
+    "static/css/main.2778a0aa.css",
+    "static/js/main.36998a2e.js"
   ]
 }
