@@ -1,12 +1,13 @@
 import ember from "./assets/ember-icon.svg";
 import "./styles/Home.scss";
 import { DiscordLink, TelegramLink } from "./App";
+import { FloatingEmbers } from "./Embers";
 
 export const Welcome = () => {
   return (
     <article id="welcome" className="row">
       <div className="content col">
-        <h1>We are the constant.</h1>
+        <h1 className="typewriter">We are the constant.</h1>
         <p>
           We glow to empower new and recovering projects in the blockchain and
           cryptocurrency space through digital leadership, immersive experience
@@ -20,6 +21,7 @@ export const Welcome = () => {
       </div>
       <div className="large-ember col">
         <img src={ember} alt="Ember graphic" />
+        <FloatingEmbers />
       </div>
     </article>
   );

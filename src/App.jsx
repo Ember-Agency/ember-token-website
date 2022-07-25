@@ -33,7 +33,7 @@ export const DiscordLink = () => {
       rel="noreferrer"
       target="_blank"
     >
-      Discord
+      <span>Discord</span>
     </a>
   );
 };
@@ -46,7 +46,7 @@ export const TelegramLink = () => {
       rel="noreferrer"
       target="_blank"
     >
-      Telegram
+      <span>Telegram</span>
     </a>
   );
 };
