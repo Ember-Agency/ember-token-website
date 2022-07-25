@@ -2,6 +2,7 @@ import ember from "./assets/ember-icon.svg";
 import "./styles/Home.scss";
 import { DiscordLink, TelegramLink } from "./App";
 import { FloatingEmbers } from "./Embers";
+import { Waves } from "./Waves";
 
 export const Welcome = () => {
   return (
@@ -23,6 +24,7 @@ export const Welcome = () => {
         <img src={ember} alt="Ember graphic" />
         <FloatingEmbers />
       </div>
+      <Waves />
     </article>
   );
 };
