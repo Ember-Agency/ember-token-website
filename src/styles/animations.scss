@@ -1,12 +1,13 @@
 @import "variables.scss";
 
 h1.typewriter {
+  animation: typing 3.5s steps(30, end), blink-caret 0.8s step-end infinite;
+  border-right: 4px solid $orange;
   color: $white;
+  display: inline-block;
   font-family: "Chakra Petch", sans-serif;
   overflow: hidden;
-  border-right: 4px solid $orange;
   white-space: nowrap;
-  animation: typing 3.5s steps(30, end), blink-caret 0.8s step-end infinite;
 }
 
 /* The typing effect */
