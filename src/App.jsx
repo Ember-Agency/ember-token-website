@@ -1,5 +1,6 @@
 import { Link, Routes, Route } from "react-router-dom";
 import logo from "./assets/logo.svg";
+import whitepaper from "./assets/whitepaper.pdf";
 import "./styles/App.scss";
 import { Welcome } from "./Home";
 
@@ -10,6 +11,7 @@ export const App = () => {
       <Routes>
         <Route path="/" element={<Welcome />} />
       </Routes>
+      <Footer />
     </main>
   );
 };
@@ -20,8 +22,16 @@ export const Header = () => {
       <Link to="/">
         <img src={logo} className="logo" alt="Ember Agency" />
       </Link>
-      {/* <Navigation /> */}
+      <Navigation />
     </header>
+  );
+};
+
+export const Footer = () => {
+  return (
+    <footer>
+      <p>&copy; 2022 Ember Agency, LLC. | All Rights Reserved</p>
+    </footer>
   );
 };
 
@@ -56,19 +66,9 @@ export const Navigation = () => {
     <nav>
       <ul>
         <li>
-          <Link to="/">Welcome</Link>
-        </li>
-        <li>
-          <Link to="/">Staking</Link>
-        </li>
-        <li>
-          <Link to="/">Whitepaper</Link>
-        </li>
-        <li>
-          <Link to="/">Tokenomics</Link>
-        </li>
-        <li>
-          <TelegramLink />
+          <a href={whitepaper} rel="noreferrer" target="_blank">
+            Whitepaper
+          </a>
         </li>
       </ul>
     </nav>

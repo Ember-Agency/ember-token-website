@@ -85,6 +85,7 @@ header {
   display: flex;
   justify-content: space-between;
   padding: 40px 0;
+  position: relative;
 
   nav {
     display: flex;
@@ -97,12 +98,20 @@ header {
         margin: 0 10px;
 
         a {
+          font-size: 0.9rem;
           padding: 0 5px;
-          font-size: 0.75rem;
         }
       }
     }
   }
+}
+
+footer {
+  color: $gray;
+  display: flex;
+  font-size: 0.8rem;
+  position: relative;
+  justify-content: center;
 }
 
 @media (max-width: 1300px) {
