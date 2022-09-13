@@ -10,7 +10,7 @@ export const Navigation = ({ onNavigate }) => {
   return (
     <nav>
       <ul>
-        <li>
+        {/* <li>
           <Link to="#link" onClick={handleClick}>
             Welcome
           </Link>
@@ -34,7 +34,7 @@ export const Navigation = ({ onNavigate }) => {
           <Link to="#link" onClick={handleClick}>
             How To Buy
           </Link>
-        </li>
+        </li> */}
         <li>
           <a
             href="https://embertoken.io/whitepaper.pdf"
