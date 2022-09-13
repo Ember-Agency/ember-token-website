@@ -1,14 +1,24 @@
-import ember from "./assets/ember-icon.svg";
-import "./styles/Home.scss";
-import { DiscordLink, TelegramLink } from "./App";
-import { FloatingEmbers } from "./Embers";
-import { Waves } from "./Waves";
+import ember from "../assets/ember-icon.svg";
+import "../styles/Welcome.scss";
+import {
+  DiscordLink,
+  FloatingEmbers,
+  RotatingText,
+  TelegramLink,
+  Waves,
+} from "../components";
+
+const rotatingText = [
+  "Swap your BNB for Ember Safely & Securely",
+  "Ember Token launches on Saturday, 9/17 at 12pm EDT",
+  "We are the constant.",
+];
 
 export const Welcome = () => {
   return (
     <article id="welcome" className="row">
       <div className="content col">
-        <h1 className="typewriter">We are the constant.</h1>
+        <RotatingText text={rotatingText} />
         <p>
           We glow to empower new and recovering projects in the blockchain and
           cryptocurrency space through digital leadership, immersive experience

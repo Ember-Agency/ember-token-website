@@ -1,0 +1,165 @@
+@import "variables.scss";
+
+.mobile-nav {
+  display: none;
+
+  nav {
+    background: transparent;
+    bottom: 0;
+    height: 100vh;
+    left: 0;
+    opacity: 0;
+    position: fixed;
+    transition: all 0.375s;
+    visibility: hidden;
+    z-index: -1;
+
+    &::before {
+      content: "";
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: $gray;
+      transform-origin: 0 0;
+      transform: skew(-14deg) translateX(-120%);
+      transition: all 0.275s 0.1s;
+    }
+
+    ul {
+      flex-direction: column;
+      height: 100%;
+      justify-content: center;
+      transform: translateX(-18%) skew(-16deg);
+      width: 80vw;
+
+      li {
+        display: block;
+        margin: 0.5rem 0;
+        text-align: right;
+        transform: skew(16deg);
+
+        &:nth-child(1) a {
+          transition: all 275ms 175ms;
+        }
+        &:nth-child(2) a {
+          transition: all 275ms 225ms;
+        }
+        &:nth-child(3) a {
+          transition: all 275ms 275ms;
+        }
+        &:nth-child(4) a {
+          transition: all 275ms 325ms;
+        }
+        &:nth-child(5) a {
+          transition: all 275ms 375ms;
+        }
+        &:nth-child(6) a {
+          transition: all 275ms 425ms;
+        }
+        &:nth-child(7) a {
+          transition: all 275ms 475ms;
+        }
+
+        a {
+          color: $white;
+          display: block;
+          font-size: 1.4rem;
+          opacity: 0;
+          padding: 1rem 0;
+          transform: translateY(-10px);
+
+          &:hover,
+          &:focus,
+          &:active {
+            color: $black;
+          }
+        }
+      }
+    }
+  }
+
+  &.is-open {
+    button .burger {
+      background: $black;
+      transform: skew(5deg) translateY(-8px) rotate(-45deg);
+
+      &:before {
+        background: $black;
+        transform: translateY(0px) skew(-10deg) rotate(75deg);
+      }
+
+      &:after {
+        transform: translateY(-12px) translateX(10px) skew(-20deg);
+        opacity: 0;
+      }
+    }
+
+    nav {
+      opacity: 1;
+      z-index: 100;
+      visibility: visible;
+
+      &::before {
+        transform: skew(-14deg) translateX(0);
+      }
+
+      a {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+  }
+
+  button {
+    background: none;
+    border: 0;
+    z-index: 1000;
+    cursor: pointer;
+
+    &:focus {
+      outline: none;
+    }
+
+    .burger {
+      position: relative;
+      display: block;
+      width: 26px;
+      height: 2px;
+      margin: 0 auto;
+      background: $gray;
+      transition: all 0.275s;
+
+      &:after,
+      &:before {
+        content: "";
+        display: block;
+        height: 100%;
+        background: $gray;
+        transition: all 0.275s;
+      }
+
+      &:after {
+        transform: translateY(-8px) translateX(-4px);
+        width: 24px;
+      }
+
+      &:before {
+        transform: translateY(-12px) translateX(-2px);
+        width: 28px;
+      }
+    }
+  }
+}
+
+@media (max-width: 950px) {
+  header {
+    .mobile-nav {
+      display: flex;
+    }
+    & > nav {
+      display: none;
+    }
+  }
+}
