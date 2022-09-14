@@ -1,20 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.4a9b057a.css",
-    "main.js": "/static/js/main.b0f60c79.js",
-    "static/js/787.ec9e85bc.chunk.js": "/static/js/787.ec9e85bc.chunk.js",
+    "main.css": "/static/css/main.81c7587e.css",
+    "main.js": "/static/js/main.334a5680.js",
+    "static/media/icon-whitepaper.svg": "/static/media/icon-whitepaper.28eba107a7872338daff4e51450d6225.svg",
+    "static/media/icon-security.svg": "/static/media/icon-security.8f0c9b26212b6eb5f47162c9625ac57a.svg",
     "static/media/ember_01.png": "/static/media/ember_01.fed514ec6cb1bf983133.png",
+    "static/media/image-nfts.svg": "/static/media/image-nfts.8b689fde558cd4abf7bbf479c480af7c.svg",
     "static/media/ember_02.png": "/static/media/ember_02.a4d300aa877efb036d4d.png",
     "static/media/ember_03.png": "/static/media/ember_03.c4a0563d2bc30fe0e6f4.png",
+    "static/media/logo-coyote.svg": "/static/media/logo-coyote.9726c179abb49e07e858cc978a8777f5.svg",
+    "static/media/image-tokenomics.svg": "/static/media/image-tokenomics.ebbb686bca2347b72f9fbb0b7013b148.svg",
     "static/media/logo.svg": "/static/media/logo.d7d6d670133955b93ff7120106f2c958.svg",
+    "static/media/icon-token-reflections.svg": "/static/media/icon-token-reflections.f4167c1d6c95bcf582af5fd37596aa40.svg",
     "static/media/ember-icon.svg": "/static/media/ember-icon.7bd6714e0558976a88625d3ca327c272.svg",
+    "static/media/icon-nft-rewards.svg": "/static/media/icon-nft-rewards.c61b4ee17474b93dde23a6dec1a15308.svg",
+    "static/media/icon-agency-rewards.svg": "/static/media/icon-agency-rewards.3a7299b617f73ba9eb50ff9066b274c7.svg",
     "index.html": "/index.html",
-    "main.4a9b057a.css.map": "/static/css/main.4a9b057a.css.map",
-    "main.b0f60c79.js.map": "/static/js/main.b0f60c79.js.map",
-    "787.ec9e85bc.chunk.js.map": "/static/js/787.ec9e85bc.chunk.js.map"
+    "main.81c7587e.css.map": "/static/css/main.81c7587e.css.map",
+    "main.334a5680.js.map": "/static/js/main.334a5680.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a9b057a.css",
-    "static/js/main.b0f60c79.js"
+    "static/css/main.81c7587e.css",
+    "static/js/main.334a5680.js"
   ]
 }
