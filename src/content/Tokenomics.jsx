@@ -51,64 +51,66 @@ export const Tokenomics = () => {
                 </div>
               </div>
             </div>
-            <div className="col">
-              <h5>Ember Consultinomics</h5>
-              <h2>Beyond Tokenomics: We Forge. You Earn</h2>
-              <div className="card">
-                <h1>
-                  A+B+C+D = <em>Ember</em>
-                </h1>
-                <div className="row">
-                  <ul className="col">
-                    <li>Advisory</li>
-                    <li>Digital Consulting</li>
-                    <li>Tokenomic Strategies</li>
-                    <li>Staking + Yield Farming</li>
-                    <li>DeFi Mechanisms</li>
-                    <li>Blockchain Consulting</li>
-                  </ul>
-                  <ul className="col">
-                    <li>Branding</li>
-                    <li>Brand Assessments</li>
-                    <li>Business + Product Naming</li>
-                    <li>Identity Development</li>
-                    <li>Brand Voice + Personality</li>
-                    <li>Communication + Style Guides</li>
-                  </ul>
-                  <ul className="col">
-                    <li>Code</li>
-                    <li>Web Development</li>
-                    <li>Software Engineering</li>
-                    <li>Smart Contract Development</li>
-                    <li>Custom Applications</li>
-                    <li>Blockchain Integrations</li>
-                  </ul>
-                  <ul className="col">
-                    <li>Design</li>
-                    <li>UX + UI Design</li>
-                    <li>Graphic + Web Design</li>
-                    <li>NFT Collections</li>
-                    <li>Illustration</li>
-                    <li>Social Strategies</li>
-                  </ul>
-                </div>
-                <h4>Revenue Breakdown</h4>
-                <div className="row">
-                  <div className="col">
-                    <div className="subheading">Ember Operations</div>
-                    <strong className="red">75%</strong>
+            <HashScroll hash="consultinomics">
+              <div className="col">
+                <h5>Ember Consultinomics</h5>
+                <h2>Beyond Tokenomics: We Forge. You Earn</h2>
+                <div className="card">
+                  <h1>
+                    A+B+C+D = <em>Ember</em>
+                  </h1>
+                  <div className="row">
+                    <ul className="col">
+                      <li>Advisory</li>
+                      <li>Digital Consulting</li>
+                      <li>Tokenomic Strategies</li>
+                      <li>Staking + Yield Farming</li>
+                      <li>DeFi Mechanisms</li>
+                      <li>Blockchain Consulting</li>
+                    </ul>
+                    <ul className="col">
+                      <li>Branding</li>
+                      <li>Brand Assessments</li>
+                      <li>Business + Product Naming</li>
+                      <li>Identity Development</li>
+                      <li>Brand Voice + Personality</li>
+                      <li>Communication + Style Guides</li>
+                    </ul>
+                    <ul className="col">
+                      <li>Code</li>
+                      <li>Web Development</li>
+                      <li>Software Engineering</li>
+                      <li>Smart Contract Development</li>
+                      <li>Custom Applications</li>
+                      <li>Blockchain Integrations</li>
+                    </ul>
+                    <ul className="col">
+                      <li>Design</li>
+                      <li>UX + UI Design</li>
+                      <li>Graphic + Web Design</li>
+                      <li>NFT Collections</li>
+                      <li>Illustration</li>
+                      <li>Social Strategies</li>
+                    </ul>
                   </div>
-                  <div className="col">
-                    <div className="subheading">Corporate Buybacks</div>
-                    <strong className="blue">22%</strong>
-                  </div>
-                  <div className="col">
-                    <div className="subheading">Corporate Contribution</div>
-                    <strong className="orange">3%</strong>
+                  <h4>Revenue Breakdown</h4>
+                  <div className="row">
+                    <div className="col">
+                      <div className="subheading">Ember Operations</div>
+                      <strong className="red">75%</strong>
+                    </div>
+                    <div className="col">
+                      <div className="subheading">Corporate Buybacks</div>
+                      <strong className="blue">22%</strong>
+                    </div>
+                    <div className="col">
+                      <div className="subheading">Corporate Contribution</div>
+                      <strong className="orange">3%</strong>
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
+            </HashScroll>
           </div>
         </div>
       </article>

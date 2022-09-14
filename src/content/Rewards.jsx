@@ -49,7 +49,7 @@ export const Rewards = () => {
                 Token holders who also hold a Level 2 or higher NFT will have
                 their share of 3% of our service revenue.
               </p>
-              <Link to="#agency">Learn more</Link>
+              <Link to="#consultinomics">Learn more</Link>
             </div>
           </div>
         </div>
