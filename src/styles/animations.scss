@@ -1,9 +1,116 @@
 @import "variables.scss";
 
+@mixin transition(
+  $property: all,
+  $duration: 0.45s,
+  $ease: cubic-bezier(0.65, 0, 0.076, 1)
+) {
+  transition: $property $duration $ease;
+}
+
+// Button
+a.btn {
+  cursor: pointer;
+  display: block;
+  font-size: 1rem;
+  height: auto;
+  outline: none;
+  max-width: 200px;
+  padding: 0;
+  position: relative;
+  text-decoration: none;
+  width: 50%;
+
+  &.red {
+    .circle {
+      background: $red;
+    }
+    .text {
+      color: $red;
+    }
+  }
+
+  &.black {
+    .circle {
+      background: $black;
+    }
+    .text {
+      color: $black;
+    }
+  }
+
+  &:hover {
+    .circle {
+      width: 100%;
+
+      .icon.arrow {
+        background: $white;
+        transform: translate(1rem, 0);
+      }
+    }
+    .text {
+      color: $white;
+    }
+  }
+
+  .circle {
+    @include transition(all, 0.45s, cubic-bezier(0.65, 0, 0.076, 1));
+    position: relative;
+    display: block;
+    margin: 0;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 1.625rem;
+
+    .icon {
+      @include transition(all, 0.45s, cubic-bezier(0.65, 0, 0.076, 1));
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      background: $white;
+
+      &.arrow {
+        @include transition(all, 0.45s, cubic-bezier(0.65, 0, 0.076, 1));
+        left: 0.15rem;
+        width: 1.125rem;
+        height: 0.125rem;
+        background: none;
+        &::before {
+          position: absolute;
+          content: "";
+          top: -0.25rem;
+          right: 0.0625rem;
+          width: 0.625rem;
+          height: 0.625rem;
+          border-top: 0.125rem solid $white;
+          border-right: 0.125rem solid $white;
+          transform: rotate(45deg);
+        }
+      }
+    }
+  }
+
+  .text {
+    @include transition(all, 0.45s, cubic-bezier(0.65, 0, 0.076, 1));
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 0.25rem 0 0.25rem 0.5rem;
+    margin: 0 0 0 1.85rem;
+    font-weight: 700;
+    line-height: 1.6;
+    text-align: center;
+    text-transform: uppercase;
+  }
+}
+
 // Rotating Text
 .rotating-text {
   color: $white;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: $secondary-font;
   font-size: 48px;
   font-weight: 500;
   // text-align: center;
@@ -46,7 +153,7 @@ h1.typewriter {
   border-right: 4px solid $orange;
   color: $white;
   display: inline-block;
-  font-family: "Chakra Petch", sans-serif;
+  font-family: $secondary-font;
   overflow: hidden;
   white-space: nowrap;
 }
@@ -72,13 +179,14 @@ h1.typewriter {
 
 // CSS Wave Animation
 .waves {
-  position: fixed;
-  bottom: 0;
+  position: relative;
   left: 0;
-  width: 100vw;
+  right: 0;
   height: 15vh;
-  min-height: 100px;
+  margin-bottom: -5px;
   max-height: 150px;
+  min-height: 100px;
+  width: 100vw;
 }
 
 .parallax > use {

@@ -1,0 +1,45 @@
+@import "variables.scss";
+
+#security {
+  padding-bottom: 10rem;
+
+  h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  h5 {
+    text-align: center;
+  }
+
+  p {
+    color: $white;
+  }
+
+  .intro {
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: center;
+  }
+
+  .row .col {
+    justify-content: center;
+
+    img {
+      max-width: 30vw;
+    }
+  }
+
+  ul li {
+    color: $white;
+    margin-bottom: 2rem;
+    text-align: center;
+
+    strong {
+      display: block;
+      font-family: $heading-font;
+      font-size: 1.75rem;
+      font-weight: 900;
+    }
+  }
+}

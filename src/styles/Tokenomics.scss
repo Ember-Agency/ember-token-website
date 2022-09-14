@@ -1,0 +1,104 @@
+@import "variables.scss";
+
+#tokenomics {
+  padding-bottom: 10rem;
+
+  h1 {
+    font-weight: 400;
+    margin-bottom: 3rem;
+
+    em {
+      color: $red-orange;
+      font-style: normal;
+    }
+  }
+
+  h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  h4 {
+    font-size: 2rem;
+    font-weight: 900;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+  }
+
+  h5 {
+    text-align: center;
+  }
+
+  .content > .row {
+    flex-direction: column;
+
+    & > .col {
+      margin-bottom: 5rem;
+      width: 100%;
+    }
+  }
+
+  .card {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 3rem;
+    text-align: center;
+    width: 100%;
+
+    img {
+      margin-bottom: 4rem;
+      max-height: 50vh;
+      max-width: 100%;
+    }
+
+    .subheading {
+      font-family: $heading-font;
+      font-size: 1rem;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+    }
+
+    strong {
+      color: $white;
+      display: block;
+      font-family: $heading-font;
+      font-size: 1.75rem;
+      font-weight: 900;
+      letter-spacing: 2px;
+
+      &.blue {
+        color: $blue;
+      }
+      &.red {
+        color: $red;
+      }
+      &.orange {
+        color: $orange;
+      }
+    }
+
+    ul {
+      margin-bottom: 5rem;
+
+      li:first-child {
+        color: $white;
+        letter-spacing: 5px;
+        text-transform: uppercase;
+      }
+    }
+
+    .row {
+      justify-content: space-between;
+
+      .col {
+        align-items: center;
+      }
+    }
+  }
+
+  @media (max-width: 1000px) {
+    .card {
+      padding: 2rem;
+    }
+  }
+}

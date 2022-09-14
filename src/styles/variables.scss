@@ -1,9 +1,19 @@
-@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Nunito+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@300&family=Abel&family=Lato:wght@300;400;900&display=swap");
 
+$heading-font: "Lato", sans-serif;
+$secondary-font: "Chakra Petch", sans-serif;
+$body-font: "Abel", sans-serif;
+
+// Primary Colors
 $black: #000;
-$orange: #f7931e;
-$red: #ff002b;
-$gray: #999999;
 $white: #fff;
+$ghost: #1f2021;
+$gray: #999999;
+
+// Secondary Colors
+$blue: #0089ff;
+$red: #ff002b;
+$red-orange: #fb4a25;
+$orange: #f7931e;
 
 $btn-gradient: linear-gradient(45deg, $orange 12%, $red 12%);

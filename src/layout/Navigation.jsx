@@ -10,40 +10,46 @@ export const Navigation = ({ onNavigate }) => {
   return (
     <nav>
       <ul>
-        {/* <li>
-          <Link to="#link" onClick={handleClick}>
+        <li>
+          <Link to="#welcome" onClick={handleClick}>
             Welcome
           </Link>
         </li>
         <li>
-          <Link to="#link" onClick={handleClick}>
-            Utility
+          <Link to="#rewards" onClick={handleClick}>
+            Rewards
           </Link>
         </li>
         <li>
-          <Link to="#link" onClick={handleClick}>
+          <Link to="#whitepaper" onClick={handleClick}>
+            Whitepaper
+          </Link>
+        </li>
+        <li>
+          <Link to="#tokenomics" onClick={handleClick}>
             Tokenomics
           </Link>
         </li>
         <li>
-          <Link to="#link" onClick={handleClick}>
+          <Link to="#security" onClick={handleClick}>
             Security
           </Link>
         </li>
         <li>
-          <Link to="#link" onClick={handleClick}>
-            How To Buy
+          <Link to="#recovery" onClick={handleClick}>
+            Recovery
+          </Link>
+        </li>
+        {/* <li>
+          <Link to="#education" onClick={handleClick}>
+            Education
+          </Link>
+        </li>
+        <li>
+          <Link to="#contact" onClick={handleClick}>
+            Contact
           </Link>
         </li> */}
-        <li>
-          <a
-            href="https://embertoken.io/whitepaper.pdf"
-            rel="noreferrer"
-            target="_blank"
-          >
-            Whitepaper
-          </a>
-        </li>
       </ul>
     </nav>
   );

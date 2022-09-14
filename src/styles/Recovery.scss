@@ -1,0 +1,73 @@
+@import "variables.scss";
+
+$recoveryNegativeMargin: 80px;
+
+#recovery {
+  padding-bottom: 5rem;
+
+  h2 {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  h5 {
+    color: $gray;
+    font-weight: 400;
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+
+  .row {
+    justify-content: space-between;
+
+    .col {
+      align-items: center;
+      max-width: 500px;
+
+      &:first-child {
+        margin-right: 3rem;
+      }
+    }
+  }
+
+  .card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin-top: $recoveryNegativeMargin;
+    padding: 0 3rem 3rem;
+    text-align: center;
+
+    img {
+      margin: -$recoveryNegativeMargin 0 0;
+      max-width: 50%;
+    }
+  }
+
+  a.btn {
+    margin: 2rem auto 0;
+  }
+
+  @media (max-width: 1000px) {
+    .card {
+      padding: 0 2rem 2rem;
+    }
+  }
+
+  @media (max-width: 800px) {
+    .row {
+      flex-direction: column;
+
+      .col {
+        justify-content: center;
+        max-width: none;
+        text-align: center;
+        width: 100%;
+
+        &:first-child {
+          margin: 0 0 3rem;
+        }
+      }
+    }
+  }
+}

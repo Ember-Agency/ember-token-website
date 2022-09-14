@@ -1,46 +1,43 @@
 @import "animations.scss";
 
 #welcome {
-  .content {
-    display: inline-block;
-    padding-left: 80px;
+  background: transparent;
+  justify-content: center;
+
+  .statement {
+    display: flex;
+    justify-content: center;
     max-width: calc(50% - 80px);
   }
 
   .large-ember > img {
-    width: 100%;
     height: 100%;
-    margin-top: -100px;
+    max-height: 100vh;
+    width: 100%;
   }
 
   a {
     position: relative;
-    top: 20px;
-    margin-right: 10px;
   }
 }
 
 @media (max-width: 1000px) {
-  #welcome {
-    .content {
-      padding-left: 40px;
-      max-width: calc(50% - 40px);
-    }
+  #welcome .statement {
+    padding-left: 40px;
+    max-width: calc(50% - 40px);
   }
 }
 
 @media (max-width: 900px) {
-  #welcome {
-    .content {
-      padding-left: 20px;
-      max-width: calc(50% - 20px);
-    }
+  #welcome .statement {
+    padding-left: 20px;
+    max-width: calc(50% - 20px);
   }
 }
 
 @media (max-width: 850px) {
   #welcome {
-    .content {
+    .statement {
       padding-left: 0;
       min-width: 380px;
       width: 380px;
@@ -54,7 +51,7 @@
 
 @media (max-width: 600px) {
   #welcome {
-    .content {
+    .statement {
       max-width: 100%;
       min-width: 100%;
       width: 100%;
