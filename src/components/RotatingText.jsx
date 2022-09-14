@@ -58,6 +58,7 @@ export const RotatingText = ({ period, speed, text }) => {
     let element = document.getElementById("text-rotate");
 
     new TextRotate(element, text);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   return (
