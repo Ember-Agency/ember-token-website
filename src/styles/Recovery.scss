@@ -1,6 +1,6 @@
 @import "variables.scss";
 
-$recoveryNegativeMargin: 80px;
+$recoveryNegativeMargin: 60px;
 
 #recovery {
   padding-bottom: 5rem;
@@ -22,10 +22,9 @@ $recoveryNegativeMargin: 80px;
 
     .col {
       align-items: center;
-      max-width: 500px;
 
       &:first-child {
-        margin-right: 3rem;
+        margin-right: 10rem;
       }
     }
   }

@@ -1,7 +1,7 @@
 @import "variables.scss";
 
 #tokenomics {
-  padding-bottom: 10rem;
+  padding: 5rem 0 10rem;
 
   h1 {
     font-weight: 400;
@@ -35,27 +35,25 @@
     & > .col {
       margin-bottom: 5rem;
       width: 100%;
+
+      &:first-child .card img {
+        margin-bottom: 0;
+      }
     }
   }
 
   .card {
-    margin: 0 auto;
-    max-width: 1200px;
+    // margin: 0 auto;
+    // max-width: 1200px;
+    // max-width: 100%;
     padding: 3rem;
     text-align: center;
-    width: 100%;
+    // width: 100%;
 
     img {
       margin-bottom: 4rem;
       max-height: 50vh;
       max-width: 100%;
-    }
-
-    .subheading {
-      font-family: $heading-font;
-      font-size: 1rem;
-      letter-spacing: 5px;
-      text-transform: uppercase;
     }
 
     strong {
@@ -65,16 +63,6 @@
       font-size: 1.75rem;
       font-weight: 900;
       letter-spacing: 2px;
-
-      &.blue {
-        color: $blue;
-      }
-      &.red {
-        color: $red;
-      }
-      &.orange {
-        color: $orange;
-      }
     }
 
     ul {
@@ -93,6 +81,25 @@
       .col {
         align-items: center;
       }
+    }
+  }
+
+  .revenue {
+    text-align: center;
+
+    .subheading {
+      font-family: $heading-font;
+      font-size: 1rem;
+      letter-spacing: 5px;
+      text-transform: uppercase;
+    }
+
+    strong {
+      display: block;
+      font-family: $heading-font;
+      font-size: 1.75rem;
+      font-weight: 900;
+      letter-spacing: 2px;
     }
   }
 

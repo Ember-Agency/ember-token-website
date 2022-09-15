@@ -137,7 +137,7 @@ main.app {
 header {
   display: flex;
   justify-content: space-between;
-  padding: 40px 20px;
+  padding: 40px;
   position: relative;
 
   nav {
@@ -152,7 +152,6 @@ header {
 
         a:not(.btn) {
           color: $white;
-          font-size: 0.9rem;
           padding: 0 5px;
 
           &:hover,

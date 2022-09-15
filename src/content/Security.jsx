@@ -1,6 +1,6 @@
 import { HashScroll } from "react-hash-scroll";
 import "../styles/Security.scss";
-import iconSecurity from "../assets/icon-security.svg";
+import iconSecurity from "../assets/icon-security.png";
 
 export const Security = () => {
   return (

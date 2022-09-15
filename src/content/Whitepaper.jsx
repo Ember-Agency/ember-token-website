@@ -1,6 +1,6 @@
 import { HashScroll } from "react-hash-scroll";
 import "../styles/Whitepaper.scss";
-import iconWhitepaper from "../assets/icon-whitepaper.svg";
+import iconWhitepaper from "../assets/icon-whitepaper.png";
 
 export const Whitepaper = () => {
   return (

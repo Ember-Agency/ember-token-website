@@ -1,0 +1,75 @@
+@import "./variables.scss";
+
+$dark-gray: #333;
+$dark-gray-trans: rgba(51, 51, 51, 0);
+$light-gray: #ccc;
+
+.slider {
+  align-items: flex-end;
+  display: flex;
+  flex-flow: row nowrap;
+  height: 720px;
+  justify-content: center;
+  margin-bottom: 5rem;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+
+  input[type="radio"] {
+    width: 12px;
+    height: 12px;
+    margin: 2rem 1rem;
+    border-radius: 50%;
+    z-index: 10;
+    outline: 6px solid $light-gray;
+    outline-offset: -6px;
+    box-shadow: 0 0 0 0 $dark-gray, 0 0 0 0 $dark-gray-trans;
+    cursor: pointer;
+    appearance: none;
+    backface-visibility: hidden;
+
+    &:checked {
+      animation: check 0.4s linear forwards;
+
+      &:nth-of-type(1) ~ .slider__inner {
+        left: 0;
+      }
+      &:nth-of-type(2) ~ .slider__inner {
+        left: -100%;
+      }
+      &:nth-of-type(3) ~ .slider__inner {
+        left: -200%;
+      }
+    }
+  }
+
+  .slider__inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 300%;
+    height: 100%;
+    transition: left 0.4s;
+    display: flex;
+    flex-flow: row nowrap;
+
+    .slider__contents {
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      justify-content: flex-start;
+      padding: 0 2rem;
+    }
+  }
+}
+
+@keyframes check {
+  50% {
+    outline-color: $orange;
+    box-shadow: 0 0 0 12px $orange, 0 0 0 36px rgba(51, 51, 51, 0.2);
+  }
+  100% {
+    outline-color: $orange;
+    box-shadow: 0 0 0 0 $orange, 0 0 0 0 $dark-gray-trans;
+  }
+}
