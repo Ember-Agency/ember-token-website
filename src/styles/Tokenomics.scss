@@ -183,6 +183,8 @@
   }
 
   @media (max-width: 700px) {
+    padding-bottom: 5rem;
+
     .slider {
       height: 775px;
     }
@@ -201,6 +203,16 @@
   }
 
   @media (max-width: 600px) {
+    .content {
+      padding: 0;
+    }
+
+    .slider .slider__inner .slider__contents {
+      padding: 0 1rem;
+    }
+  }
+
+  @media (max-width: 500px) {
     .slider {
       height: 675px;
     }

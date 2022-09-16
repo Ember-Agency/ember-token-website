@@ -11,7 +11,6 @@ $recoveryNegativeMargin: 60px;
   }
 
   h5 {
-    color: $gray;
     font-weight: 400;
     margin-bottom: 2rem;
     text-align: center;
@@ -24,7 +23,7 @@ $recoveryNegativeMargin: 60px;
       align-items: center;
 
       &:first-child {
-        margin-right: 10rem;
+        margin-right: 5rem;
       }
     }
   }
@@ -39,6 +38,7 @@ $recoveryNegativeMargin: 60px;
     align-items: center;
     display: flex;
     flex-direction: column;
+    font-size: 1.1rem;
     margin-top: $recoveryNegativeMargin;
     padding: 0 3rem 3rem;
     text-align: center;
@@ -54,12 +54,39 @@ $recoveryNegativeMargin: 60px;
   }
 
   @media (max-width: 1000px) {
+    h5 {
+      font-size: 0.9rem;
+    }
+
     .card {
+      font-size: 1rem;
       padding: 0 2rem 2rem;
     }
   }
 
+  @media (max-width: 900px) {
+    .content {
+      padding: 0 1rem;
+
+      &.row .col:first-child {
+        margin-right: 2.5rem;
+      }
+
+      .card {
+        padding: 0 1rem 1rem;
+      }
+    }
+  }
+
   @media (max-width: 800px) {
+    h5 {
+      font-size: 1.2rem;
+    }
+
+    .card {
+      font-size: 1.1rem;
+    }
+
     .row {
       flex-direction: column;
 

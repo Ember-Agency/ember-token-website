@@ -40,7 +40,7 @@ $negativeMargin: 5rem;
       flex-direction: column;
 
       .col.card {
-        margin-top: $negativeMargin * 1.5;
+        margin: $negativeMargin * 1.5 0 0;
         text-align: center;
         width: 100%;
       }
