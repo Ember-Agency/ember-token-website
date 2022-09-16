@@ -1,6 +1,6 @@
 export const Waves = () => {
   return (
-    <div id="waves">
+    <div className="ocean">
       <svg
         className="waves"
         xmlns="http://www.w3.org/2000/svg"

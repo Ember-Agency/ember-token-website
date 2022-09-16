@@ -1,0 +1,22 @@
+@import "variables.scss";
+
+#contact {
+  background: $red-orange-gradient;
+  padding: 5rem 0 0;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-family: $secondary-font;
+    font-weight: 300;
+    margin-bottom: 1rem;
+  }
+
+  a.btn {
+    width: 150px;
+  }
+
+  .ocean {
+    margin-top: 2rem;
+  }
+}

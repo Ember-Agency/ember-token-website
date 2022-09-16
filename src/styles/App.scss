@@ -166,12 +166,24 @@ header {
 }
 
 footer {
+  align-items: center;
   background: $black;
   color: $gray;
   display: flex;
+  flex-direction: column;
   font-size: 0.8rem;
+  padding: 2rem 0;
   position: relative;
   justify-content: center;
+
+  a:not(.btn) {
+    color: $silver;
+  }
+
+  img {
+    margin-bottom: 1rem;
+    width: 300px;
+  }
 }
 
 @media (max-width: 1300px) {

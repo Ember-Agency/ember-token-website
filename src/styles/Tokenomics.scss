@@ -18,6 +18,14 @@
     text-align: center;
   }
 
+  h3 {
+    font-size: 1.2rem;
+    font-weight: 900;
+    letter-spacing: 10px;
+    margin-bottom: 4rem;
+    text-transform: uppercase;
+  }
+
   h4 {
     font-size: 2rem;
     font-weight: 900;
@@ -43,12 +51,16 @@
   }
 
   .card {
-    // margin: 0 auto;
-    // max-width: 1200px;
-    // max-width: 100%;
+    align-items: center;
+    display: flex;
+    height: 700px;
+    justify-content: center;
     padding: 3rem;
     text-align: center;
-    // width: 100%;
+
+    .card-content {
+      width: 100%;
+    }
 
     img {
       margin-bottom: 4rem;
@@ -66,7 +78,7 @@
     }
 
     ul {
-      margin-bottom: 5rem;
+      margin-bottom: 3rem;
 
       li:first-child {
         color: $white;
@@ -82,6 +94,18 @@
         align-items: center;
       }
     }
+  }
+
+  // Card specific styles
+  #ember-tokenomics img {
+    margin: -100px 0 0 0;
+    max-height: 600px;
+  }
+
+  #nft-rewards {
+    background-image: $black-gradient, url("../assets/bg-nft.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   .revenue {
@@ -100,6 +124,16 @@
       font-size: 1.75rem;
       font-weight: 900;
       letter-spacing: 2px;
+
+      &.orange {
+        color: $orange;
+      }
+      &.red {
+        color: $red;
+      }
+      &.blue {
+        color: $blue;
+      }
     }
   }
 

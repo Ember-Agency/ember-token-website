@@ -1,5 +1,5 @@
 import { HashScroll } from "react-hash-scroll";
-// import { Button } from "../components";
+import { ExternalButton } from "../components";
 import "../styles/Recovery.scss";
 import logoCoyote from "../assets/logo-coyote.svg";
 
@@ -23,19 +23,23 @@ export const Recovery = () => {
           </div>
           <div className="col">
             <h5>Current Recovery Project</h5>
-            <div className="card">
-              <img src={logoCoyote} alt="Coyote Coin" />
-              <p>
-                The Coyote Coin project hits home to the Ember team and many in
-                our community. At the current time, we aren't looking to recover
-                the project itself. Instead, we'll be utilizing the Ember
-                Recovery Wallet to accrue BNB (BEP-20) and help investors in
-                that project reclaim over 1900 BNB that was stolen. Ember is
-                proud to support those who were impacted by the malicious
-                attacks on Coyote.
-              </p>
+            <div className="card-border">
+              <div className="card">
+                <img src={logoCoyote} alt="Coyote Coin" />
+                <p>
+                  The Coyote Coin project hits home to the Ember team and many
+                  in our community. At the current time, we aren't looking to
+                  recover the project itself. Instead, we'll be utilizing the
+                  Ember Recovery Wallet to accrue BNB (BEP-20) and help
+                  investors in that project reclaim over 1900 BNB that was
+                  stolen. Ember is proud to support those who were impacted by
+                  the malicious attacks on Coyote.
+                </p>
+              </div>
             </div>
-            {/* <Button color="red">Submit A Project</Button> */}
+            <ExternalButton color="red" href="mailto:support@emberagency.io">
+              Submit A Project
+            </ExternalButton>
           </div>
         </div>
       </article>

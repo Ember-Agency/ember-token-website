@@ -1,5 +1,5 @@
 import {
-  // Contact,
+  Contact,
   // Education,
   Recovery,
   Rewards,
@@ -18,8 +18,8 @@ export const Home = () => {
       <Tokenomics />
       <Security />
       <Recovery />
-      {/* <Education />
-      <Contact /> */}
+      {/* <Education /> */}
+      <Contact />
     </main>
   );
 };

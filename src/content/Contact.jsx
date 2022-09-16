@@ -1,14 +1,16 @@
 import { HashScroll } from "react-hash-scroll";
-import { Button } from "../components";
+import { ExternalButton, Waves } from "../components";
+import "../styles/Contact.scss";
 
 export const Contact = () => {
   return (
     <HashScroll hash="contact">
-      <article id="contact" className="row">
+      <article id="contact">
         <h1>Have any questions?</h1>
-        <Button color="black" to="#contact">
+        <ExternalButton color="black" href="mailto:support@emberagency.io">
           Contact Us
-        </Button>
+        </ExternalButton>
+        <Waves />
       </article>
     </HashScroll>
   );

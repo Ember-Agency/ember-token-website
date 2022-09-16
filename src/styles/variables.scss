@@ -10,6 +10,7 @@ $midnight: #0f0f0f;
 $white: #fff;
 $ghost: #1f2021;
 $gray: #999999;
+$silver: #d1d1d1;
 
 // Secondary Colors
 $blue: #0089ff;
@@ -18,3 +19,5 @@ $red-orange: #fb4a25;
 $orange: #f7931e;
 
 $btn-gradient: linear-gradient(45deg, $orange 12%, $red 12%);
+$red-orange-gradient: linear-gradient($red-orange 0%, $red 100%);
+$black-gradient: linear-gradient(hsla(0, 0%, 0%, 0.8) 0%, $black 100%);

@@ -44,12 +44,12 @@ export const Navigation = ({ onNavigate }) => {
           <Link to="#education" onClick={handleClick}>
             Education
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link to="#contact" onClick={handleClick}>
             Contact
           </Link>
-        </li> */}
+        </li>
       </ul>
     </nav>
   );

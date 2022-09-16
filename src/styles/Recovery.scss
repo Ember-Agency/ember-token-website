@@ -29,6 +29,12 @@ $recoveryNegativeMargin: 60px;
     }
   }
 
+  .card-border {
+    background: hsla(210, 3%, 13%, 0.5);
+    border-radius: 16px;
+    padding: 2rem;
+  }
+
   .card {
     align-items: center;
     display: flex;

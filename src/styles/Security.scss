@@ -1,6 +1,10 @@
 @import "variables.scss";
 
 #security {
+  background-image: url("../assets/bg-brickwall.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
   padding-bottom: 10rem;
 
   h2 {
@@ -23,6 +27,7 @@
   }
 
   .row .col {
+    align-items: center;
     justify-content: center;
 
     img {
@@ -33,6 +38,7 @@
   ul li {
     color: $white;
     margin-bottom: 2rem;
+    max-width: 350px;
     text-align: center;
 
     strong {
