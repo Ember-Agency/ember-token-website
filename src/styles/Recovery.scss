@@ -51,6 +51,7 @@ $recoveryNegativeMargin: 60px;
 
   a.btn {
     margin: 2rem auto 0;
+    width: 200px;
   }
 
   @media (max-width: 1000px) {
@@ -100,6 +101,20 @@ $recoveryNegativeMargin: 60px;
           margin: 0 0 3rem;
         }
       }
+    }
+  }
+
+  @media (max-width: 500px) {
+    .content {
+      padding: 0;
+    }
+
+    .card-border {
+      padding: 1rem;
+    }
+
+    h5 {
+      font-size: 1rem;
     }
   }
 }
