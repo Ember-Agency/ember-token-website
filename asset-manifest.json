@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.023ca7b3.css",
-    "main.js": "/static/js/main.334a5680.js",
-    "static/media/icon-whitepaper.svg": "/static/media/icon-whitepaper.28eba107a7872338daff4e51450d6225.svg",
-    "static/media/icon-security.svg": "/static/media/icon-security.8f0c9b26212b6eb5f47162c9625ac57a.svg",
+    "main.css": "/static/css/main.a744dfee.css",
+    "main.js": "/static/js/main.50cf546f.js",
+    "static/media/icon-security.png": "/static/media/icon-security.f4520bec51d040ff6677.png",
+    "static/media/bg-brickwall.jpg": "/static/media/bg-brickwall.8908f1b479fc04b4ae0b.jpg",
     "static/media/ember_01.png": "/static/media/ember_01.fed514ec6cb1bf983133.png",
+    "static/media/icon-whitepaper.png": "/static/media/icon-whitepaper.f179de7c112828a041c1.png",
     "static/media/image-nfts.svg": "/static/media/image-nfts.8b689fde558cd4abf7bbf479c480af7c.svg",
     "static/media/ember_02.png": "/static/media/ember_02.a4d300aa877efb036d4d.png",
+    "static/media/logo-vertical.svg": "/static/media/logo-vertical.2ab41401c6024825e06cbefe5455951e.svg",
+    "static/media/bg-nft.jpg": "/static/media/bg-nft.90eb84a58058d13db3ce.jpg",
     "static/media/ember_03.png": "/static/media/ember_03.c4a0563d2bc30fe0e6f4.png",
     "static/media/logo-coyote.svg": "/static/media/logo-coyote.9726c179abb49e07e858cc978a8777f5.svg",
     "static/media/image-tokenomics.svg": "/static/media/image-tokenomics.ebbb686bca2347b72f9fbb0b7013b148.svg",
@@ -16,11 +19,11 @@
     "static/media/icon-nft-rewards.svg": "/static/media/icon-nft-rewards.c61b4ee17474b93dde23a6dec1a15308.svg",
     "static/media/icon-agency-rewards.svg": "/static/media/icon-agency-rewards.3a7299b617f73ba9eb50ff9066b274c7.svg",
     "index.html": "/index.html",
-    "main.023ca7b3.css.map": "/static/css/main.023ca7b3.css.map",
-    "main.334a5680.js.map": "/static/js/main.334a5680.js.map"
+    "main.a744dfee.css.map": "/static/css/main.a744dfee.css.map",
+    "main.50cf546f.js.map": "/static/js/main.50cf546f.js.map"
   },
   "entrypoints": [
-    "static/css/main.023ca7b3.css",
-    "static/js/main.334a5680.js"
+    "static/css/main.a744dfee.css",
+    "static/js/main.50cf546f.js"
   ]
 }
