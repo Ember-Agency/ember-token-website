@@ -1,10 +1,21 @@
+import { useEffect, useState } from "react";
 import "../styles/Slider.scss";
 
 // TO-DO: Add automatic scrolling to the slider
 
 export const Slider = ({ slides }) => {
-  return (
-    <div class="slider">
+  const [dynamicWidth, setDynamicWidth] = useState(window.innerWidth);
+
+  const getDynamicWidth = () => {
+    setDynamicWidth(window.innerWidth);
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", getDynamicWidth);
+  }, [dynamicWidth]);
+
+  return dynamicWidth > 600 ? (
+    <div className="slider">
       <input
         type="radio"
         name="slider"
@@ -13,13 +24,19 @@ export const Slider = ({ slides }) => {
       />
       <input type="radio" name="slider" title="NFT Rewards" />
       <input type="radio" name="slider" title="Consultinomics" />
-      <div class="slider__inner">
+      <div className="slider__inner">
         {slides.map((slide, index) => (
-          <div class="slider__contents" key={index}>
+          <div className="slider__contents" key={index}>
             {slide}
           </div>
         ))}
       </div>
     </div>
+  ) : (
+    slides.map((slide, index) => (
+      <div className="mobile-slides" key={index}>
+        {slide}
+      </div>
+    ))
   );
 };

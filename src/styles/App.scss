@@ -212,3 +212,26 @@ footer {
     max-width: 100%;
   }
 }
+
+@media (max-width: 500px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  header {
+    margin-bottom: 2rem;
+    padding: 1.5rem;
+
+    img.logo {
+      max-width: 200px;
+    }
+  }
+
+  main.app article > .content {
+    padding: 0 1rem;
+  }
+}

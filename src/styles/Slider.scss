@@ -60,6 +60,28 @@ $light-gray: #ccc;
       padding: 0 2rem;
     }
   }
+
+  @media (max-width: 1000px) {
+    .slider__inner .slider__contents {
+      padding: 0;
+    }
+  }
+
+  @media (max-width: 850px) {
+    height: 925px;
+  }
+
+  @media (max-width: 800px) {
+    height: 875px;
+  }
+
+  @media (max-width: 700px) {
+    height: 775px;
+  }
+}
+
+.mobile-slides {
+  margin: 5rem 2rem;
 }
 
 @keyframes check {

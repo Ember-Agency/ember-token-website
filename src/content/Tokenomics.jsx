@@ -89,7 +89,7 @@ const EmberConsultinomics = () => {
       <>
         <h5>Ember Consultinomics</h5>
         <h2>Beyond Tokenomics: We Forge. You Earn</h2>
-        <div className="card">
+        <div id="consultinomics" className="card">
           <div className="card-content">
             <h1>
               A+B+C+D = <em>Ember</em>

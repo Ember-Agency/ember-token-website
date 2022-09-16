@@ -21,3 +21,5 @@ $orange: #f7931e;
 $btn-gradient: linear-gradient(45deg, $orange 12%, $red 12%);
 $red-orange-gradient: linear-gradient($red-orange 0%, $red 100%);
 $black-gradient: linear-gradient(hsla(0, 0%, 0%, 0.8) 0%, $black 100%);
+
+$mobile-black-gradient: linear-gradient(hsla(0, 0%, 0%, 0.8) 80%, $black 100%);
