@@ -12,18 +12,38 @@ $negativeMargin: 5rem;
     text-align: center;
   }
 
-  .col.card {
-    margin: 0 1rem;
-    padding: 0 2rem 2rem;
-    width: calc(30% - 2rem);
+  .content .row {
+    flex-direction: row;
 
-    img {
-      margin: -$negativeMargin auto 1rem;
-      height: 200px;
+    .col.card {
+      margin: 0 1rem;
+      padding: 0 2rem 2rem;
+      width: calc(30% - 2rem);
+
+      img {
+        margin: -$negativeMargin auto 1rem;
+        height: 200px;
+      }
+
+      p {
+        flex-grow: 2;
+      }
+    }
+  }
+
+  @media (max-width: 1000px) {
+    h1 {
+      margin: 0 auto;
     }
 
-    p {
-      flex-grow: 2;
+    .content .row {
+      flex-direction: column;
+
+      .col.card {
+        margin-top: $negativeMargin * 1.5;
+        text-align: center;
+        width: 100%;
+      }
     }
   }
 }

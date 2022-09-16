@@ -24,22 +24,15 @@
 
 @media (max-width: 1000px) {
   #welcome .statement {
-    padding-left: 40px;
-    max-width: calc(50% - 40px);
-  }
-}
-
-@media (max-width: 900px) {
-  #welcome .statement {
-    padding-left: 20px;
-    max-width: calc(50% - 20px);
+    max-width: 50%;
   }
 }
 
 @media (max-width: 850px) {
   #welcome {
     .statement {
-      padding-left: 0;
+      height: calc(100vh - 300px);
+      padding-top: 2rem;
       min-width: 380px;
       width: 380px;
     }
@@ -47,6 +40,12 @@
     .large-ember {
       width: calc(100vw - (380px + 40px));
     }
+  }
+}
+
+@media (max-width: 770px) {
+  #welcome .statement {
+    height: calc(100vh - 190px);
   }
 }
 

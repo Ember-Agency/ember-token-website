@@ -138,8 +138,75 @@
   }
 
   @media (max-width: 1000px) {
+    .slider .slider__inner .slider__contents {
+      padding: 0;
+    }
+
     .card {
       padding: 2rem;
+    }
+  }
+
+  @media (max-width: 850px) {
+    .slider {
+      height: 925px;
+    }
+
+    #ember-tokenomics.card {
+      height: 750px;
+
+      .card-content {
+        img {
+          margin: 0;
+        }
+
+        .row {
+          align-items: center;
+          flex-direction: column;
+
+          .col {
+            margin-bottom: 1rem;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 800px) {
+    .slider {
+      height: 875px;
+    }
+
+    #ember-tokenomics.card {
+      height: 700px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    .slider {
+      height: 775px;
+    }
+
+    h2 {
+      font-size: 2rem;
+    }
+
+    #ember-tokenomics.card {
+      height: 600px;
+
+      .card-content img {
+        margin: -20px 0 -30px;
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+    .slider {
+      height: 675px;
+    }
+
+    #ember-tokenomics.card {
+      height: 500px;
     }
   }
 }

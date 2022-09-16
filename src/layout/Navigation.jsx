@@ -11,11 +11,6 @@ export const Navigation = ({ onNavigate }) => {
     <nav>
       <ul>
         <li>
-          <Link to="#welcome" onClick={handleClick}>
-            Welcome
-          </Link>
-        </li>
-        <li>
           <Link to="#rewards" onClick={handleClick}>
             Rewards
           </Link>
@@ -45,7 +40,7 @@ export const Navigation = ({ onNavigate }) => {
             Education
           </Link>
         </li> */}
-        <li>
+        <li className="hide">
           <Link to="#contact" onClick={handleClick}>
             Contact
           </Link>
