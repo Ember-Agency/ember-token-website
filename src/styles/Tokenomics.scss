@@ -102,7 +102,7 @@
 
   // Card specific styles
   #ember-tokenomics img {
-    // margin: -100px 0 0 0;
+    margin: -100px 0 0 0;
     max-height: 600px;
   }
 
@@ -118,7 +118,7 @@
     .subheading {
       font-family: $heading-font;
       font-size: 1rem;
-      letter-spacing: 5px;
+      letter-spacing: 1px;
       text-transform: uppercase;
     }
 
@@ -145,6 +145,23 @@
     .card {
       padding: 2rem;
     }
+
+    #consultinomics .card-content {
+      h1 {
+        margin-bottom: 1rem;
+      }
+      .row {
+        flex-wrap: wrap;
+
+        .col {
+          margin-bottom: 1rem;
+        }
+      }
+
+      .revenue h4 {
+        margin: 1rem 0 2rem;
+      }
+    }
   }
 
   @media (max-width: 850px) {
@@ -169,6 +186,10 @@
   }
 
   @media (max-width: 800px) {
+    h2 {
+      font-size: 2.25rem;
+    }
+
     .card {
       height: 700px;
     }
@@ -178,7 +199,7 @@
     padding-bottom: 5rem;
 
     h2 {
-      font-size: 2rem;
+      font-size: 1.75rem;
     }
 
     .card {
@@ -187,6 +208,34 @@
 
     #ember-tokenomics.card .card-content img {
       margin: -20px 0 -30px;
+    }
+
+    #nft-rewards .card-content .row .col strong {
+      font-size: 1.5rem;
+      letter-spacing: 1px;
+    }
+
+    #consultinomics .card-content {
+      h1 {
+        font-size: 2.25rem;
+      }
+
+      .row .col {
+        margin: 0 0 1rem;
+      }
+
+      .revenue {
+        h4 {
+          margin: 1rem 0;
+        }
+
+        .row .col {
+          flex-direction: row;
+          justify-content: space-between;
+          margin-bottom: 0;
+          width: 100%;
+        }
+      }
     }
   }
 
@@ -212,34 +261,6 @@
 
     #nft-rewards {
       background-image: $mobile-black-gradient, url("../assets/bg-nft.jpg");
-
-      .card-content .row .col strong {
-        font-size: 1.5rem;
-        letter-spacing: 1px;
-      }
-    }
-
-    #consultinomics {
-      .card-content {
-        .row {
-          flex-direction: column;
-
-          .col {
-            margin-bottom: 1rem;
-            width: 100%;
-          }
-        }
-
-        .revenue {
-          margin-top: 2rem;
-
-          .row .col {
-            flex-direction: row;
-            justify-content: space-between;
-            margin-bottom: 0.25rem;
-          }
-        }
-      }
     }
   }
 
