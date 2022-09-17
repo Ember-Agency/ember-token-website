@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { Footer, Header, Home } from "./layout";
+import { Chart, Footer, Header, Home } from "./layout";
 import "./styles/App.scss";
 
 export const App = () => {
@@ -8,6 +8,7 @@ export const App = () => {
       <Header />
       <Routes>
         <Route path="/" element={<Home />} />
+        <Route path="/chart" element={<Chart />} />
       </Routes>
       <Footer />
     </main>

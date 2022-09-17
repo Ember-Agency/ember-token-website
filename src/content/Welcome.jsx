@@ -10,7 +10,7 @@ import {
 
 const rotatingText = [
   "Swap your BNB for Ember Safely & Securely",
-  "Ember Token launches Saturday, 9/17 at 12pm EDT",
+  "Ember Token launching soon",
   "We are the constant.",
 ];
 
