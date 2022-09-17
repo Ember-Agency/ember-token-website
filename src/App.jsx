@@ -5,8 +5,10 @@ import "./styles/App.scss";
 
 export const App = () => {
   useEffect(() => {
+    const hostname = window.location.hostname;
+    const pathname = window.location.pathname;
     // redirect user to BlockStar Launchpad
-    if (window.location.hostname === "claim.embertoken.io") {
+    if (hostname === "claim.embertoken.io" || pathname === "/claim") {
       window.location =
         "https://launchpad.blockstar.site/ember-presale/?chainid=56";
     }
