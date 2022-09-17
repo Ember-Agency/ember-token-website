@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.deb3ac90.css",
-    "main.js": "/static/js/main.b62db3cc.js",
+    "main.css": "/static/css/main.038fc747.css",
+    "main.js": "/static/js/main.fedeeb2e.js",
     "static/media/icon-security.png": "/static/media/icon-security.5d742609d21d679f2370.png",
     "static/media/bg-brickwall.jpg": "/static/media/bg-brickwall.f314c838811bc922a660.jpg",
     "static/media/ember_01.png": "/static/media/ember_01.feadadf75c6c055ef0a9.png",
@@ -10,6 +10,7 @@
     "static/media/ember_02.png": "/static/media/ember_02.aa3f0ddfb58deabc3f22.png",
     "static/media/logo-vertical.svg": "/static/media/logo-vertical.925e63031d1b732bee021fac699890b2.svg",
     "static/media/bg-nft.jpg": "/static/media/bg-nft.aa157f0dccdeb4bd3943.jpg",
+    "static/media/bg-embers.jpg": "/static/media/bg-embers.8b161eee3184b02d5fed.jpg",
     "static/media/ember_03.png": "/static/media/ember_03.c4a0563d2bc30fe0e6f4.png",
     "static/media/logo-coyote.svg": "/static/media/logo-coyote.e072cab6fa4b7c2e2701127fd901276d.svg",
     "static/media/image-tokenomics.svg": "/static/media/image-tokenomics.1dcf8f13a3e2c66f2dc74888d59ffe43.svg",
@@ -19,11 +20,11 @@
     "static/media/icon-nft-rewards.svg": "/static/media/icon-nft-rewards.c726cdacb26d3d3ca9be702696ddde6b.svg",
     "static/media/icon-agency-rewards.svg": "/static/media/icon-agency-rewards.41478b7af18f449dcfaa0deac2ff490b.svg",
     "index.html": "/index.html",
-    "main.deb3ac90.css.map": "/static/css/main.deb3ac90.css.map",
-    "main.b62db3cc.js.map": "/static/js/main.b62db3cc.js.map"
+    "main.038fc747.css.map": "/static/css/main.038fc747.css.map",
+    "main.fedeeb2e.js.map": "/static/js/main.fedeeb2e.js.map"
   },
   "entrypoints": [
-    "static/css/main.deb3ac90.css",
-    "static/js/main.b62db3cc.js"
+    "static/css/main.038fc747.css",
+    "static/js/main.fedeeb2e.js"
   ]
 }
