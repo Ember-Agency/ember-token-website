@@ -10,7 +10,7 @@ import {
 
 const rotatingText = [
   "Swap your BNB for Ember Safely & Securely",
-  "Ember Token launching soon",
+  "Ember Token is launching soon",
   "We are the constant.",
 ];
 
@@ -29,14 +29,17 @@ export const Welcome = () => {
               advisory, digital governance, and a deep-rooted desire to bring
               education, stability, and trust to the blockchain industry.
             </p>
-            <ExternalButton
-              color="red"
-              href="https://swap.embertoken.io"
-              rel="noreferrer"
-              target="_blank"
-            >
-              View Ember Swap
-            </ExternalButton>
+            <div className="cta">
+              <strong>Participate in Presale?</strong>
+              <a
+                className="pill"
+                href="https://launchpad.blockstar.site/ember-presale/?chainid=56"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Claim your tokens!
+              </a>
+            </div>
           </div>
           <div className="large-ember col">
             <img src={ember} alt="Ember graphic" />

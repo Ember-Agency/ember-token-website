@@ -11,6 +11,19 @@
     max-width: calc(50% - 80px);
   }
 
+  .cta {
+    align-items: center;
+    display: flex;
+
+    strong {
+      color: $white;
+      font-family: $heading-font;
+      font-size: 1.25rem;
+      font-weight: 900;
+      margin-right: 1.5rem;
+    }
+  }
+
   .large-ember > img {
     height: 100%;
     max-height: 100vh;
@@ -19,7 +32,6 @@
 
   a {
     position: relative;
-    width: 200px;
   }
 
   @media (max-width: 1000px) {
