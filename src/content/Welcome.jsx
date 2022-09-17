@@ -1,12 +1,7 @@
 import { HashScroll } from "react-hash-scroll";
 import ember from "../assets/ember-icon.svg";
 import "../styles/Welcome.scss";
-import {
-  ExternalButton,
-  FloatingEmbers,
-  RotatingText,
-  Waves,
-} from "../components";
+import { FloatingEmbers, RotatingText, Waves } from "../components";
 
 const rotatingText = [
   "Swap your BNB for Ember Safely & Securely",

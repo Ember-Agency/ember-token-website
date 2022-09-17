@@ -1,0 +1,20 @@
+@import "./variables.scss";
+
+main.app.dashboard {
+  background: url("../assets/bg-embers.jpg") no-repeat top center fixed;
+
+  footer {
+    background: transparent;
+  }
+}
+
+.chart-container {
+  background: $ghost;
+  border-radius: 16px;
+  box-shadow: 0 30px 50px $black;
+  padding: 1rem;
+  display: flex;
+  height: calc(100vh - (150px + 2rem));
+  margin: 0 2rem 2rem;
+  width: calc(100vw - 4rem);
+}

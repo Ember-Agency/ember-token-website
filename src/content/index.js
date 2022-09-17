@@ -1,3 +1,4 @@
+export * from "./Chart";
 export * from "./Contact";
 export * from "./Education";
 export * from "./Recovery";
