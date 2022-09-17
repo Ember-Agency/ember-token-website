@@ -7,14 +7,6 @@ export const App = () => {
     <main className="app">
       <Header />
       <Routes>
-        <Route
-          path="/claim"
-          element={() => {
-            window.location =
-              "https://launchpad.blockstar.site/ember-presale/?chainid=56";
-            return null;
-          }}
-        />
         <Route path="/" element={<Home />} />
       </Routes>
       <Footer />
