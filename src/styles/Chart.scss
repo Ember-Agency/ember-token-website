@@ -14,7 +14,21 @@ main.app.dashboard {
   box-shadow: 0 30px 50px $black;
   padding: 1rem;
   display: flex;
+  flex-direction: column;
   height: calc(100vh - (150px + 2rem));
   margin: 0 2rem 2rem;
   width: calc(100vw - 4rem);
+
+  .ember-buy-btn {
+    background: $red-orange-gradient;
+    align-items: center;
+    color: $white;
+    justify-content: center;
+    display: flex;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    right: 3.25rem;
+    top: calc(150px + 2.5rem);
+  }
 }
