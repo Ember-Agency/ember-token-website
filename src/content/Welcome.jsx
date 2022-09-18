@@ -25,14 +25,21 @@ export const Welcome = () => {
               education, stability, and trust to the blockchain industry.
             </p>
             <div className="cta">
-              <strong>Participate in Presale?</strong>
+              <a
+                className="pill red"
+                href="https://launchpad.blockstar.site/swap/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                Buy EMBER Now
+              </a>
               <a
                 className="pill"
                 href="https://launchpad.blockstar.site/ember-presale/?chainid=56"
                 rel="noreferrer"
                 target="_blank"
               >
-                Claim your tokens!
+                Claim Presale tokens!
               </a>
             </div>
           </div>
