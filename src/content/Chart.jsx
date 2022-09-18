@@ -12,7 +12,7 @@ export const Chart = () => {
         Buy Ember
       </a>
       <iframe
-        src="https://teams.bogged.finance/embeds/chart?address=0x4033F69f486debe311D804E116a29DD90054C7D0&chain=bsc&charttype=line&theme=bg:03070DFF|bg2:2B3648FF|primary:F00111FF|secondary:F00111FF|text:252526FF|text2:D6D9DDFF|candlesUp:1BC870FF|candlesDown:ff4976ff|chartLine:D4F001FF&defaultinterval=15m&showchartbutton=false"
+        src="https://teams.bogged.finance/embeds/chart?address=0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c&chain=bsc&charttype=candles&theme=bg:000000FF|bg2:1f2021FF|primary:0089ffFF|secondary:1BC870FF|text:ffffffFF|text2:ffffffFF|candlesUp:1BC870FF|candlesDown:fb4a25FF|chartLine:018CF0FF&defaultinterval=15m&showchartbutton=false"
         frameBorder="0"
         height="100%"
         width="100%"
