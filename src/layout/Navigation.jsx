@@ -25,7 +25,7 @@ export const Navigation = ({ onNavigate }) => {
             Tokenomics
           </Link>
         </li>
-        <li>
+        <li className="hide">
           <Link to="/#security" onClick={handleClick}>
             Security
           </Link>
@@ -40,11 +40,14 @@ export const Navigation = ({ onNavigate }) => {
             Education
           </Link>
         </li> */}
-        <li className="hide">
+        <li>
+          <Link to="/dashboard">Dashboard</Link>
+        </li>
+        {/* <li className="hide">
           <Link to="/#contact" onClick={handleClick}>
             Contact
           </Link>
-        </li>
+        </li> */}
       </ul>
     </nav>
   );

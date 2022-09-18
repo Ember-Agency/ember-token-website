@@ -5,7 +5,7 @@ import { MobileMenu, Navigation } from "../layout";
 export const Header = () => {
   return (
     <header>
-      <Link to="#welcome">
+      <Link to="/">
         <img src={logo} className="logo" alt="Ember Token" />
       </Link>
       <Navigation />
