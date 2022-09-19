@@ -5,7 +5,7 @@ import { FloatingEmbers, RotatingText, Waves } from "../components";
 
 const rotatingText = [
   "Swap your BNB for Ember Safely & Securely",
-  "Ember Token is launching soon",
+  "Ember Token is LIVE!",
   "We are the constant.",
 ];
 
