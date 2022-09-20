@@ -16,12 +16,16 @@
     text-align: center;
   }
 
+  a {
+    margin: 1rem auto;
+  }
+
   p {
     color: $white;
   }
 
   .intro {
-    margin: 0 auto;
+    margin: 0 auto 1rem;
     max-width: 1200px;
     text-align: center;
   }

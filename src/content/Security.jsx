@@ -1,4 +1,5 @@
 import { HashScroll } from "react-hash-scroll";
+import { ExternalButton } from "../components/";
 import "../styles/Security.scss";
 import iconSecurity from "../assets/icon-security.png";
 
@@ -19,6 +20,16 @@ export const Security = () => {
               ecosystem of products and services protected, and the
               hardest-working team this side of the 'chain.
             </p>
+            <h5>Contract Address</h5>
+            <code>0x36a8fcb1f8bca02dc74eb34281de3b9143eae8e3</code>
+            <ExternalButton
+              color="red"
+              href="https://irp.cdn-website.com/1b45ecb9/files/uploaded/EmberToken_AuditReport_InterFi.pdf"
+              target="_blank"
+              rel="noreferrer"
+            >
+              InterFi Audit
+            </ExternalButton>
           </div>
           <div className="row">
             <div className="col">
