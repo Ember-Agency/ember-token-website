@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.436b13cc.css",
-    "main.js": "/static/js/main.91c3ec05.js",
+    "main.css": "/static/css/main.849729c1.css",
+    "main.js": "/static/js/main.a6386956.js",
     "static/media/icon-security.png": "/static/media/icon-security.5d742609d21d679f2370.png",
     "static/media/bg-brickwall.jpg": "/static/media/bg-brickwall.f314c838811bc922a660.jpg",
     "static/media/ember_01.png": "/static/media/ember_01.feadadf75c6c055ef0a9.png",
@@ -9,7 +9,9 @@
     "static/media/icon-whitepaper.png": "/static/media/icon-whitepaper.ff0aa36f31931f25300b.png",
     "static/media/ember_02.png": "/static/media/ember_02.aa3f0ddfb58deabc3f22.png",
     "static/media/logo-vertical.svg": "/static/media/logo-vertical.925e63031d1b732bee021fac699890b2.svg",
+    "static/media/bio-batman.png": "/static/media/bio-batman.ff88d4a5273ef0eef5e9.png",
     "static/media/bg-nft.jpg": "/static/media/bg-nft.aa157f0dccdeb4bd3943.jpg",
+    "static/media/bio-redbeard.png": "/static/media/bio-redbeard.eabee7ee71f54f357615.png",
     "static/media/bg-embers.jpg": "/static/media/bg-embers.8b161eee3184b02d5fed.jpg",
     "static/media/ember_03.png": "/static/media/ember_03.c4a0563d2bc30fe0e6f4.png",
     "static/media/logo-coyote.svg": "/static/media/logo-coyote.e072cab6fa4b7c2e2701127fd901276d.svg",
@@ -20,11 +22,11 @@
     "static/media/icon-nft-rewards.svg": "/static/media/icon-nft-rewards.c726cdacb26d3d3ca9be702696ddde6b.svg",
     "static/media/icon-agency-rewards.svg": "/static/media/icon-agency-rewards.41478b7af18f449dcfaa0deac2ff490b.svg",
     "index.html": "/index.html",
-    "main.436b13cc.css.map": "/static/css/main.436b13cc.css.map",
-    "main.91c3ec05.js.map": "/static/js/main.91c3ec05.js.map"
+    "main.849729c1.css.map": "/static/css/main.849729c1.css.map",
+    "main.a6386956.js.map": "/static/js/main.a6386956.js.map"
   },
   "entrypoints": [
-    "static/css/main.436b13cc.css",
-    "static/js/main.91c3ec05.js"
+    "static/css/main.849729c1.css",
+    "static/js/main.a6386956.js"
   ]
 }
