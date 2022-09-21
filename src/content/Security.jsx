@@ -22,14 +22,24 @@ export const Security = () => {
             </p>
             <h5>Contract Address</h5>
             <code>0x36a8fcb1f8bca02dc74eb34281de3b9143eae8e3</code>
-            <ExternalButton
-              color="red"
-              href="https://irp.cdn-website.com/1b45ecb9/files/uploaded/EmberToken_AuditReport_InterFi.pdf"
-              target="_blank"
-              rel="noreferrer"
-            >
-              InterFi Audit
-            </ExternalButton>
+            <div className="btn-group">
+              <ExternalButton
+                color="red"
+                href="https://irp.cdn-website.com/1b45ecb9/files/uploaded/EmberToken_AuditReport_InterFi.pdf"
+                target="_blank"
+                rel="noreferrer"
+              >
+                InterFi Audit
+              </ExternalButton>
+              <ExternalButton
+                color="red"
+                href="https://blockstar.site/s/bx_timeline_photos_processed/9eeye4qpmwvcyv48nkcwtfxekxmybj6s.png"
+                target="_blank"
+                rel="noreferrer"
+              >
+                TruAudit KYC
+              </ExternalButton>
+            </div>
           </div>
           <div className="row">
             <div className="col">
