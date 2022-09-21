@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.849729c1.css",
-    "main.js": "/static/js/main.a6386956.js",
+    "main.css": "/static/css/main.5885b04f.css",
+    "main.js": "/static/js/main.54cf3e2b.js",
     "static/media/icon-security.png": "/static/media/icon-security.5d742609d21d679f2370.png",
     "static/media/bg-brickwall.jpg": "/static/media/bg-brickwall.f314c838811bc922a660.jpg",
     "static/media/ember_01.png": "/static/media/ember_01.feadadf75c6c055ef0a9.png",
@@ -22,11 +22,11 @@
     "static/media/icon-nft-rewards.svg": "/static/media/icon-nft-rewards.c726cdacb26d3d3ca9be702696ddde6b.svg",
     "static/media/icon-agency-rewards.svg": "/static/media/icon-agency-rewards.41478b7af18f449dcfaa0deac2ff490b.svg",
     "index.html": "/index.html",
-    "main.849729c1.css.map": "/static/css/main.849729c1.css.map",
-    "main.a6386956.js.map": "/static/js/main.a6386956.js.map"
+    "main.5885b04f.css.map": "/static/css/main.5885b04f.css.map",
+    "main.54cf3e2b.js.map": "/static/js/main.54cf3e2b.js.map"
   },
   "entrypoints": [
-    "static/css/main.849729c1.css",
-    "static/js/main.a6386956.js"
+    "static/css/main.5885b04f.css",
+    "static/js/main.54cf3e2b.js"
   ]
 }
