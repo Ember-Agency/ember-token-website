@@ -23,7 +23,7 @@ const EmberTokenomics = () => {
             </div>
             <div className="col">
               <div className="subheading">EMBER to Liquidity</div>
-              <strong>5,500,000,000</strong>
+              <strong>4,300,000,000</strong>
             </div>
           </div>
         </div>
