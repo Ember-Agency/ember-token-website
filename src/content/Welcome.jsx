@@ -27,7 +27,7 @@ export const Welcome = () => {
             <div className="cta">
               <a
                 className="pill red"
-                href="https://launchpad.blockstar.site/swap/"
+                href="https://swap.embertoken.io/"
                 rel="noreferrer"
                 target="_blank"
               >

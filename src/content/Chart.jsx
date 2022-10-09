@@ -4,7 +4,7 @@ export const Chart = () => {
   return (
     <div className="chart-container">
       <a
-        href="https://launchpad.blockstar.site/swap/"
+        href="https://swap.embertoken.io/"
         target="_blank"
         rel="noreferrer"
         className="ember-buy-btn"
