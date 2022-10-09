@@ -32,3 +32,14 @@ main.app.dashboard {
     top: calc(150px + 2.5rem);
   }
 }
+
+@media (max-width: 700px) {
+  .chart-container {
+    height: 500px;
+    margin: 0 1rem 1rem;
+
+    .ember-buy-btn {
+      width: 100px;
+    }
+  }
+}

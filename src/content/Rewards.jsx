@@ -17,7 +17,7 @@ const TokenReflections = () => {
         of their transaction goes directly back to holders as shared
         reflections. The remaining 6% is outlined further below.
       </p>
-      <Link to="#tokenomics">Learn more</Link>
+      <Link to="#tokenomics">Learn more (slide 1)</Link>
     </div>
   );
 };
@@ -34,7 +34,7 @@ const NFTRewards = () => {
         create a 1-5x percentage of ownership of the reward pool distributions,
         themselves. Yeah, we thought this one through pretty good...
       </p>
-      <Link to="#nfts">Learn more</Link>
+      <Link to="#tokenomics">Learn more (slide 2)</Link>
     </div>
   );
 };
@@ -51,7 +51,7 @@ const AgencyRewards = () => {
         to the blockchain space. All Ember Token holders who also hold a Level 2
         or higher NFT will have their share of 3% of our service revenue.
       </p>
-      <Link to="#consultinomics">Learn more</Link>
+      <Link to="#tokenomics">Learn more (slide 3)</Link>
     </div>
   );
 };

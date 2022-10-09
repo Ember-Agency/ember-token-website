@@ -41,7 +41,7 @@ export const Navigation = ({ onNavigate }) => {
           </Link>
         </li> */}
         <li>
-          <Link to="/dashboard">Dashboard</Link>
+          <Link to="/dashboard">Chart</Link>
         </li>
         {/* <li className="hide">
           <Link to="/#contact" onClick={handleClick}>

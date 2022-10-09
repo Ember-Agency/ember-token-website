@@ -35,11 +35,11 @@ export const Welcome = () => {
               </a>
               <a
                 className="pill"
-                href="https://launchpad.blockstar.site/ember-presale/?chainid=56"
+                href="https://linktr.ee/emberagency"
                 rel="noreferrer"
                 target="_blank"
               >
-                Claim Presale tokens!
+                Follow our Socials!
               </a>
             </div>
           </div>
