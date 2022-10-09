@@ -37,9 +37,31 @@ main.app.dashboard {
   .chart-container {
     height: 500px;
     margin: 0 1rem 1rem;
+    width: calc(100vw - 2rem);
 
     .ember-buy-btn {
       width: 100px;
     }
+  }
+}
+
+@media (max-width: 666px) {
+  .chart-container .ember-buy-btn {
+    height: 36px;
+    width: 150px;
+    left: calc(50% - 75px);
+    top: calc(150px + 95px);
+  }
+}
+
+@media (max-width: 500px) {
+  .chart-container .ember-buy-btn {
+    top: calc(150px + 75px);
+  }
+}
+
+@media (max-width: 365px) {
+  .chart-container .ember-buy-btn {
+    top: calc(150px + 70px);
   }
 }
