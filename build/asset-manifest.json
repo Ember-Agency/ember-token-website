@@ -1,12 +1,13 @@
 {
   "files": {
-    "main.css": "/static/css/main.fd058068.css",
-    "main.js": "/static/js/main.cad205bb.js",
+    "main.css": "/static/css/main.35c00b82.css",
+    "main.js": "/static/js/main.a447addf.js",
     "static/media/icon-security.png": "/static/media/icon-security.5d742609d21d679f2370.png",
     "static/media/bg-brickwall.jpg": "/static/media/bg-brickwall.f314c838811bc922a660.jpg",
     "static/media/ember_01.png": "/static/media/ember_01.feadadf75c6c055ef0a9.png",
     "static/media/image-nfts.svg": "/static/media/image-nfts.51dce7d2bc7c526c6522ed52b7828df6.svg",
     "static/media/icon-whitepaper.png": "/static/media/icon-whitepaper.ff0aa36f31931f25300b.png",
+    "static/media/bg-nfts.jpg": "/static/media/bg-nfts.9243b490ebe0c500ab05.jpg",
     "static/media/ember_02.png": "/static/media/ember_02.aa3f0ddfb58deabc3f22.png",
     "static/media/logo-vertical.svg": "/static/media/logo-vertical.925e63031d1b732bee021fac699890b2.svg",
     "static/media/bio-batman.png": "/static/media/bio-batman.ff88d4a5273ef0eef5e9.png",
@@ -22,11 +23,11 @@
     "static/media/icon-nft-rewards.svg": "/static/media/icon-nft-rewards.c726cdacb26d3d3ca9be702696ddde6b.svg",
     "static/media/icon-agency-rewards.svg": "/static/media/icon-agency-rewards.41478b7af18f449dcfaa0deac2ff490b.svg",
     "index.html": "/index.html",
-    "main.fd058068.css.map": "/static/css/main.fd058068.css.map",
-    "main.cad205bb.js.map": "/static/js/main.cad205bb.js.map"
+    "main.35c00b82.css.map": "/static/css/main.35c00b82.css.map",
+    "main.a447addf.js.map": "/static/js/main.a447addf.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd058068.css",
-    "static/js/main.cad205bb.js"
+    "static/css/main.35c00b82.css",
+    "static/js/main.a447addf.js"
   ]
 }
