@@ -4,6 +4,7 @@ main.app.nft {
   background-image: linear-gradient(180deg, $black 10%, rgba(0, 0, 0, 0) 100%),
     url("../assets/bg-nfts.jpg");
   background-repeat: no-repeat;
+  background-size: cover;
 
   article {
     background: transparent;
@@ -146,8 +147,14 @@ main.app.nft {
 
   @media (max-width: 600px) {
     article .content {
+      padding: 0;
+
       h2 {
         font-size: 2.2rem;
+      }
+
+      form {
+        padding: 1rem;
       }
     }
   }
