@@ -33,6 +33,7 @@ main.app.nft {
 
       .col.form {
         align-items: flex-end;
+        margin-left: 2rem;
       }
     }
   }
@@ -104,6 +105,49 @@ main.app.nft {
       &:active {
         background: $red;
         color: $white;
+      }
+    }
+  }
+
+  @media (max-width: 800px) {
+    background-image: linear-gradient(
+        180deg,
+        $black 10%,
+        rgba(0, 0, 0, 0.4) 100%
+      ),
+      url("../assets/bg-nfts.jpg");
+
+    article .content {
+      padding-bottom: 3rem;
+
+      .row {
+        flex-direction: column;
+
+        p {
+          max-width: none;
+        }
+
+        .col {
+          width: 100%;
+
+          &:first-child {
+            order: 2;
+          }
+
+          &.form {
+            align-items: center;
+            margin: 0 0 3rem;
+            order: 1;
+          }
+        }
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+    article .content {
+      h2 {
+        font-size: 2.2rem;
       }
     }
   }
