@@ -1,0 +1,110 @@
+@import "variables.scss";
+
+main.app.nft {
+  background-image: linear-gradient(180deg, $black 10%, rgba(0, 0, 0, 0) 100%),
+    url("../assets/bg-nfts.jpg");
+  background-repeat: no-repeat;
+
+  article {
+    background: transparent;
+
+    .content {
+      color: $gray;
+      padding-bottom: 300px;
+
+      h2,
+      h5 {
+        text-align: center;
+      }
+
+      .heading {
+        margin: 2rem 0 6rem;
+      }
+
+      p {
+        font-size: 1.4rem;
+        max-width: 600px;
+      }
+
+      strong {
+        color: $white;
+        font-family: $heading-font;
+      }
+
+      .col.form {
+        align-items: flex-end;
+      }
+    }
+  }
+
+  form {
+    background: $ghost;
+    border-radius: 13px;
+    box-shadow: 0 30px 50px rgba(0, 0, 0, 0.53);
+    color: $gray-text;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 600px;
+    padding: 2rem;
+    width: 100%;
+
+    h2 {
+      color: $gray;
+      font-size: 1.75rem;
+      margin-top: 0;
+      text-align: center;
+
+      strong {
+        color: $white;
+      }
+    }
+
+    sup {
+      color: $red;
+    }
+
+    label {
+      margin-top: 1rem;
+    }
+
+    input,
+    select,
+    textarea {
+      background: $midnight;
+      border: 1px solid $border-gray;
+      border-radius: 8px;
+      color: $white;
+      display: flex;
+      font-family: $body-font;
+      font-size: 1.2rem;
+      margin: 0.5rem 0;
+      padding: 0.5rem;
+
+      &:focus,
+      &:active {
+        border-bottom-color: $red;
+        outline: none;
+      }
+    }
+
+    button {
+      background: $red-orange-gradient;
+      border-radius: 6px;
+      border: none;
+      color: $white;
+      cursor: pointer;
+      font-family: "Nunito Sans", sans-serif;
+      height: 60px;
+      margin-top: 2rem;
+      padding: 0.5rem 3rem;
+
+      &:hover,
+      &:focus,
+      &:active {
+        background: $red;
+        color: $white;
+      }
+    }
+  }
+}

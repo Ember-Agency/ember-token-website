@@ -1,6 +1,7 @@
 export * from "./Chart";
 export * from "./Contact";
 export * from "./Education";
+export * from "./NFT";
 export * from "./Recovery";
 export * from "./Rewards";
 export * from "./Security";
