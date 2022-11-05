@@ -1,0 +1,66 @@
+@import "variables.scss";
+
+$tan: #ede8e2;
+$grey-blue: #323c50;
+$dark-blue: #293245;
+$bg-overlay: rgba(0, 0, 0, 0.1);
+$recoveryNegativeMargin: 60px;
+
+main.app.recovery {
+  background-image: linear-gradient(0deg, $bg-overlay 0%, $bg-overlay 100%),
+    url("../assets/bg-recovery.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+#recovery-page {
+  padding: 5rem 0 0;
+  align-items: center;
+  justify-content: center;
+
+  h1 {
+    font-family: $secondary-font;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  a.btn {
+    width: 150px;
+  }
+
+  .content {
+    background: $tan;
+  }
+
+  .project {
+    background: $dark-blue;
+  }
+
+  .cta {
+    background: $grey-blue;
+  }
+
+  .constant {
+    background-image: url("../assets/bg-burned-rose.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 500px;
+  }
+
+  .card {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-size: 1.1rem;
+    margin-top: $recoveryNegativeMargin;
+    padding: 0 3rem 3rem;
+    text-align: center;
+
+    img {
+      margin: -$recoveryNegativeMargin 0 0;
+      max-width: 50%;
+    }
+  }
+}
