@@ -1,3 +1,4 @@
+import { Parallax, Waves } from "../components";
 import "../styles/RecoveryPage.scss";
 import logoCoyote from "../assets/logo-coyote.svg";
 import imageMatches from "../assets/image-matches.png";
@@ -6,19 +7,18 @@ import imageHeart from "../assets/image-heart.png";
 export const RecoveryPage = () => {
   return (
     <main id="recovery-page">
-      <div className="intro">
-        <h5>LIGHTING THE PATH TO</h5>
-        <h1>Recovery</h1>
-        <p>
-          Ember was forged from the ashes of fallen opportunity. Our founders
-          turned that pain into progress by implementing the Recovery Tax into
-          the Ember Tokenomics. The BNB generated through this tax exists to
-          bring opportunity to new projects hitting the market and to serve
-          projects that have fallen victim to malicious attacks and hacks. We
-          have an unapologetic commitment to shining light in the dark alleys of
-          crypto and wrap our efforts with heavy governance and protection.
-        </p>
-      </div>
+      <Parallax
+        heading="Recovery"
+        subheading="Lighting the path to"
+        desc="Ember was forged from the ashes of fallen opportunity. Our founders
+            turned that pain into progress by implementing the Recovery Tax into
+            the Ember Tokenomics. The BNB generated through this tax exists to
+            bring opportunity to new projects hitting the market and to serve
+            projects that have fallen victim to malicious attacks and hacks. We
+            have an unapologetic commitment to shining light in the dark alleys
+            of crypto and wrap our efforts with heavy governance and protection."
+      />
+      <div className="angled-bg"></div>
       <div className="content">
         <div className="row">
           <div className="col">
@@ -27,10 +27,19 @@ export const RecoveryPage = () => {
             <p>
               We believe in the power of “good” and leading the charge for
               positive change in DeFi; something this space is overdue for. When
-              you invest in Ember, you invest in others. A portion of our
-              tokenomics is dedicated to helping bring opportunity to new
-              projects in the space while also investing in the recovery and
-              support of others who have lost their way.
+              you invest in{" "}
+              <a
+                href="https://embertoken.io"
+                title="Ember Token"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Ember
+              </a>
+              , you invest in others. A portion of our tokenomics is dedicated
+              to helping bring opportunity to new projects in the space while
+              also investing in the recovery and support of others who have lost
+              their way.
             </p>
             <p>
               Our mission is to leverage our knowledge, talents, insights, and
@@ -38,12 +47,12 @@ export const RecoveryPage = () => {
               can create the largest fire.
             </p>
           </div>
-          <div className="col">
+          <div className="col image">
             <img src={imageMatches} alt="Matches lighting matches" />
           </div>
         </div>
         <div className="row">
-          <div className="col">
+          <div className="col image">
             <img src={imageHeart} alt="Heart" />
           </div>
           <div className="col">
@@ -56,8 +65,15 @@ export const RecoveryPage = () => {
               there are hundreds, if not thousands of projects that have fallen
               victim to malicious scams and rug pulls by bad actors. While we
               can't help everybody, Ember is committed to a thorough, internal
-              vetting process before we bring it to InterFi, our premier audit
-              partner.
+              vetting process before we bring it to{" "}
+              <a
+                href="https://www.interfi.network/"
+                rel="noreferrer"
+                target="_blank"
+              >
+                InterFi
+              </a>
+              , our premier audit partner.
             </p>
           </div>
         </div>
@@ -88,7 +104,7 @@ export const RecoveryPage = () => {
             </div>
           </div>
         </div>
-        <div className="row">
+        <div className="details row">
           <div className="col">
             Recovery Project
             <strong>Coyote Coin Community</strong>
@@ -99,7 +115,7 @@ export const RecoveryPage = () => {
           </div>
           <div className="col">
             Amount Raised to Date
-            <strong>161 BNB</strong>
+            <strong>167 BNB</strong>
           </div>
         </div>
         <div className="cta">
@@ -112,8 +128,8 @@ export const RecoveryPage = () => {
               </a>
             </div>
             <div className="col">
-              Yes and I'd like to roll my BNB into EMBER
-              <a href="/" className="btn">
+              Yes, I'd like to roll my BNB into EMBER
+              <a href="/" className="btn red">
                 Click Here
               </a>
             </div>
@@ -122,6 +138,7 @@ export const RecoveryPage = () => {
       </div>
       <div className="constant">
         <h2>WE ARE THE CONSTANT</h2>
+        <Waves />
       </div>
     </main>
   );

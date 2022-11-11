@@ -1,23 +1,34 @@
 @import "variables.scss";
 
-$tan: #ede8e2;
-$grey-blue: #323c50;
-$dark-blue: #293245;
-$bg-overlay: rgba(0, 0, 0, 0.1);
 $recoveryNegativeMargin: 60px;
+$parallaxHeightAdjust: 200px;
 
 main.app.recovery {
-  background-image: linear-gradient(0deg, $bg-overlay 0%, $bg-overlay 100%),
-    url("../assets/bg-recovery.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
   height: 100vh;
+
+  header {
+    background: transparent;
+    z-index: 10000;
+
+    nav ul li a:not(.btn) {
+      color: $red-orange;
+    }
+
+    .mobile-nav nav ul li a {
+      color: $white;
+    }
+  }
+
+  @media (max-height: 800px) {
+    header {
+      padding: 20px 40px;
+    }
+  }
 }
 
 #recovery-page {
-  padding: 5rem 0 0;
-  align-items: center;
-  justify-content: center;
+  background: $off-white;
+  padding: 0;
 
   h1 {
     font-family: $secondary-font;
@@ -26,27 +37,147 @@ main.app.recovery {
     text-align: center;
   }
 
+  h2 {
+    color: $dark-grey-blue;
+    font-weight: 900;
+  }
+
+  h5 {
+    color: $fuschia;
+    letter-spacing: 8px;
+    margin-bottom: 0.5rem;
+  }
+
   a.btn {
     width: 150px;
   }
 
+  .row {
+    padding: 4rem 0;
+
+    .col:first-child {
+      margin-right: 3rem;
+    }
+  }
+
+  .overlay {
+    top: -$parallaxHeightAdjust;
+  }
+
+  .angled-bg {
+    background: $off-white;
+    margin: $parallaxHeightAdjust * -2 0 0;
+    min-height: 500px;
+    position: absolute;
+    transform: skewY(-3deg);
+    width: 100vw;
+    z-index: 10;
+  }
+
   .content {
-    background: $tan;
+    background: $off-white;
+    z-index: 100;
+    margin-top: $parallaxHeightAdjust * -1.5;
+    padding: 0 4rem;
+    position: relative;
+    width: 100vw;
+
+    a {
+      color: $fuschia;
+      font-weight: bold;
+      text-decoration: underline;
+    }
+
+    p {
+      margin-bottom: 0.75rem;
+    }
   }
 
   .project {
     background: $dark-blue;
-  }
+    padding: 0 4rem;
 
-  .cta {
-    background: $grey-blue;
+    h2 {
+      color: $off-white;
+    }
+
+    h5 {
+      color: $peach;
+    }
+
+    strong {
+      color: $off-white;
+    }
+
+    .details {
+      color: $off-white;
+      font-size: 1.75rem;
+      text-align: center;
+      padding-top: 0;
+
+      strong {
+        font-family: $heading-font;
+        color: $peach;
+      }
+    }
+
+    .cta {
+      background: $grey-blue;
+      color: $off-white;
+      display: none;
+      font-size: 1.5rem;
+      margin: 0 -4rem;
+      padding: 4rem;
+      text-align: center;
+
+      h3 {
+        font-size: 2.5rem;
+      }
+
+      a.btn {
+        align-items: center;
+        justify-content: center;
+        background: $fuschia;
+        border-radius: 10px;
+        color: $off-white;
+        display: flex;
+        font-weight: bold;
+        height: 40px;
+        margin: 1rem auto 0;
+        text-decoration: none;
+        width: 100%;
+
+        &.red {
+          background: $red;
+        }
+      }
+    }
   }
 
   .constant {
     background-image: url("../assets/bg-burned-rose.jpg");
     background-position: center;
     background-repeat: no-repeat;
-    height: 500px;
+    height: 700px;
+    padding: 120px 0 160px;
+
+    h2 {
+      align-items: center;
+      background-image: url("../assets/logo-white-ember-outline.svg");
+      background-position: center;
+      background-repeat: no-repeat;
+      color: $white;
+      display: flex;
+      font-size: 3rem;
+      height: 100%;
+      justify-content: center;
+      letter-spacing: 20px;
+      text-align: center;
+    }
+
+    .ocean {
+      margin-top: 15px;
+    }
   }
 
   .card {
@@ -55,12 +186,224 @@ main.app.recovery {
     flex-direction: column;
     font-size: 1.1rem;
     margin-top: $recoveryNegativeMargin;
-    padding: 0 3rem 3rem;
+    padding: 0 3rem 2rem;
     text-align: center;
 
     img {
       margin: -$recoveryNegativeMargin 0 0;
-      max-width: 50%;
+      max-width: 80%;
+      width: 100%;
+    }
+  }
+
+  @media (max-width: 1000px) {
+    $parallaxHeightAdjust: 250px;
+
+    .overlay {
+      top: -$parallaxHeightAdjust;
+    }
+
+    .angled-bg {
+      margin: $parallaxHeightAdjust * -1.75 0 0;
+    }
+
+    .content {
+      margin-top: $parallaxHeightAdjust * -1.5;
+    }
+  }
+
+  @media (max-width: 900px) {
+    $recoveryNegativeMargin: 60px;
+    $parallaxHeightAdjust: 280px;
+
+    .overlay {
+      top: -$parallaxHeightAdjust;
+    }
+
+    .angled-bg {
+      margin-top: $parallaxHeightAdjust * -1.75;
+    }
+
+    .content,
+    .project {
+      .row {
+        flex-direction: column;
+        padding: 0;
+
+        .col {
+          width: 100%;
+          padding: 2rem 0;
+
+          &:first-child {
+            margin-right: 0;
+          }
+        }
+      }
+    }
+
+    .content {
+      margin-top: $parallaxHeightAdjust * -1.5;
+
+      .row .col {
+        &.image {
+          order: 1;
+          padding-top: 0;
+
+          img {
+            margin: 0 auto;
+            width: 60%;
+          }
+        }
+
+        &:not(.image) {
+          order: 2;
+        }
+      }
+    }
+
+    .project {
+      padding-top: 2rem;
+
+      .card {
+        margin: $recoveryNegativeMargin auto;
+        width: 80%;
+
+        img {
+          margin: -$recoveryNegativeMargin 0 0;
+        }
+      }
+
+      .details {
+        padding-bottom: 2rem;
+
+        .col {
+          padding: 1rem 0;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 800px) {
+    $parallaxHeightAdjust: 280px;
+
+    .angled-bg {
+      margin-top: $parallaxHeightAdjust * -1.8;
+    }
+
+    .content {
+      margin-top: $parallaxHeightAdjust * -1.5;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .constant {
+      padding-bottom: 55px;
+    }
+  }
+
+  @media (max-width: 700px) {
+    $recoveryNegativeMargin: 30px;
+    $parallaxHeightAdjust: 300px;
+
+    .overlay {
+      top: -$parallaxHeightAdjust;
+    }
+
+    .angled-bg {
+      margin-top: $parallaxHeightAdjust * -2;
+    }
+
+    .content {
+      margin-top: $parallaxHeightAdjust * -1.7;
+
+      .row .col.image img {
+        width: 80%;
+      }
+    }
+
+    .project .card {
+      margin: $recoveryNegativeMargin auto;
+
+      img {
+        margin: -$recoveryNegativeMargin 0 0;
+      }
+    }
+  }
+
+  @media (max-width: 600px) {
+    $recoveryNegativeMargin: 20px;
+    $parallaxHeightAdjust: 320px;
+
+    .overlay {
+      top: -$parallaxHeightAdjust;
+    }
+
+    .angled-bg {
+      margin-top: $parallaxHeightAdjust * -2;
+    }
+
+    .content {
+      margin-top: $parallaxHeightAdjust * -1.75;
+
+      .row .col.image img {
+        width: 100%;
+      }
+    }
+
+    .project .card {
+      margin: $recoveryNegativeMargin auto;
+
+      img {
+        margin: -$recoveryNegativeMargin 0 0;
+      }
+    }
+
+    .constant {
+      height: 500px;
+      padding: 0 0 55px;
+
+      h2 {
+        background-size: 40%;
+        font-size: 2.5rem;
+      }
+    }
+  }
+
+  @media (max-width: 500px) {
+    $parallaxHeightAdjust: 350px;
+
+    .overlay {
+      top: -$parallaxHeightAdjust;
+
+      .parallax {
+        h1 {
+          font-size: 8rem;
+          letter-spacing: 10px;
+        }
+        h5 {
+          top: 37%;
+        }
+      }
+    }
+
+    .angled-bg {
+      margin-top: $parallaxHeightAdjust * -2;
+    }
+
+    .content {
+      margin-top: $parallaxHeightAdjust * -1.75;
+    }
+
+    .constant h2 {
+      font-size: 1.8rem;
+      letter-spacing: 10px;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .overlay .parallax h1 {
+      font-size: 7rem;
+      letter-spacing: 6px;
     }
   }
 }
