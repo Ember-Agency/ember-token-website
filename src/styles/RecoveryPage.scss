@@ -5,6 +5,7 @@ $parallaxHeightAdjust: 150px;
 
 main.app.recovery {
   height: 100vh;
+  min-width: 360px;
 
   header {
     background: transparent;
@@ -62,6 +63,11 @@ main.app.recovery {
 
   .overlay {
     margin-top: -$parallaxHeightAdjust;
+  }
+
+  .angled-bg,
+  .content {
+    min-width: 360px;
   }
 
   .angled-bg {
@@ -299,6 +305,11 @@ main.app.recovery {
     .constant {
       padding-bottom: 55px;
     }
+
+    .ocean {
+      height: 40px;
+      margin-top: -40px;
+    }
   }
 
   @media (max-width: 700px) {
@@ -364,9 +375,44 @@ main.app.recovery {
   }
 
   @media (max-width: 500px) {
+    .content {
+      padding: 4rem 2rem;
+    }
+
+    .project {
+      padding: 2rem 2rem 0;
+
+      h5 {
+        line-height: 1.5rem;
+      }
+
+      .details strong {
+        font-size: 1.6rem;
+      }
+
+      .cta {
+        margin: 0 -2rem;
+        padding: 2rem;
+      }
+    }
+
     .constant h2 {
       font-size: 1.8rem;
       letter-spacing: 10px;
+    }
+  }
+
+  @media (max-width: 450px) {
+    .angled-bg,
+    .content {
+      margin-top: -75vw;
+    }
+  }
+
+  @media (max-width: 400px) {
+    .angled-bg,
+    .content {
+      margin-top: -90vw;
     }
   }
 }
