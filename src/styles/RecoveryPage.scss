@@ -1,7 +1,7 @@
 @import "variables.scss";
 
 $recoveryNegativeMargin: 60px;
-$parallaxHeightAdjust: 200px;
+$parallaxHeightAdjust: 150px;
 
 main.app.recovery {
   height: 100vh;
@@ -19,11 +19,11 @@ main.app.recovery {
     }
   }
 
-  @media (max-height: 800px) {
-    header {
-      padding: 15px 40px;
-    }
-  }
+  // @media (max-height: 800px) {
+  //   header {
+  //     padding: 15px 40px;
+  //   }
+  // }
 }
 
 #recovery-page {
@@ -61,12 +61,12 @@ main.app.recovery {
   }
 
   .overlay {
-    top: -$parallaxHeightAdjust;
+    margin-top: -$parallaxHeightAdjust;
   }
 
   .angled-bg {
     background: $off-white;
-    margin: $parallaxHeightAdjust * -2 0 0;
+    margin-top: -3.75vw;
     min-height: 500px;
     position: absolute;
     transform: skewY(-3deg);
@@ -75,12 +75,10 @@ main.app.recovery {
   }
 
   .content {
-    background: $off-white;
-    z-index: 100;
-    margin-top: $parallaxHeightAdjust * -1.5;
     padding: 0 4rem;
     position: relative;
     width: 100vw;
+    z-index: 100;
 
     a {
       color: $fuschia;
@@ -121,7 +119,6 @@ main.app.recovery {
     .cta {
       background: $grey-blue;
       color: $off-white;
-      display: none;
       font-size: 1.5rem;
       margin: 0 -4rem;
       padding: 4rem;
@@ -131,22 +128,32 @@ main.app.recovery {
         font-size: 2.5rem;
       }
 
+      strong {
+        color: $fuschia;
+      }
+
+      a {
+        color: $fuschia;
+        text-decoration: underline;
+
+        &:hover {
+          color: $red;
+        }
+      }
+
       a.btn {
         align-items: center;
         justify-content: center;
         background: $fuschia;
         border-radius: 10px;
         color: $off-white;
-        display: flex;
+        display: none;
+        // display: flex;
         font-weight: bold;
         height: 40px;
         margin: 1rem auto 0;
         text-decoration: none;
         width: 100%;
-
-        &.red {
-          background: $red;
-        }
       }
     }
   }
@@ -195,32 +202,30 @@ main.app.recovery {
     margin-top: -100px;
   }
 
-  @media (max-width: 1000px) {
-    $parallaxHeightAdjust: 250px;
-
-    .overlay {
-      top: -$parallaxHeightAdjust;
+  @media (max-width: 1120px) {
+    .angled-bg,
+    .content {
+      margin-top: -10vw;
     }
+  }
 
-    .angled-bg {
-      margin: $parallaxHeightAdjust * -1.75 0 0;
+  @media (max-width: 980px) {
+    .angled-bg,
+    .content {
+      margin-top: -22vw;
     }
 
     .content {
-      margin-top: $parallaxHeightAdjust * -1.5;
+      padding: 4rem;
     }
   }
 
   @media (max-width: 900px) {
     $recoveryNegativeMargin: 60px;
-    $parallaxHeightAdjust: 280px;
+    $parallaxHeightAdjust: 250px;
 
     .overlay {
-      top: -$parallaxHeightAdjust;
-    }
-
-    .angled-bg {
-      margin-top: $parallaxHeightAdjust * -1.75;
+      margin-top: -$parallaxHeightAdjust;
     }
 
     .content,
@@ -240,23 +245,19 @@ main.app.recovery {
       }
     }
 
-    .content {
-      margin-top: $parallaxHeightAdjust * -1.5;
+    .content .row .col {
+      &.image {
+        order: 1;
+        padding-top: 0;
 
-      .row .col {
-        &.image {
-          order: 1;
-          padding-top: 0;
-
-          img {
-            margin: 0 auto;
-            width: 60%;
-          }
+        img {
+          margin: 0 auto;
+          width: 60%;
         }
+      }
 
-        &:not(.image) {
-          order: 2;
-        }
+      &:not(.image) {
+        order: 2;
       }
     }
 
@@ -285,12 +286,12 @@ main.app.recovery {
   @media (max-width: 800px) {
     $parallaxHeightAdjust: 280px;
 
-    .angled-bg {
-      margin-top: $parallaxHeightAdjust * -1.8;
+    .overlay {
+      margin-top: -$parallaxHeightAdjust;
     }
 
-    .content {
-      margin-top: $parallaxHeightAdjust * -1.5;
+    .angled-bg {
+      margin-top: -30vw;
     }
   }
 
@@ -302,22 +303,19 @@ main.app.recovery {
 
   @media (max-width: 700px) {
     $recoveryNegativeMargin: 30px;
-    $parallaxHeightAdjust: 300px;
+    $parallaxHeightAdjust: 350px;
 
     .overlay {
-      top: -$parallaxHeightAdjust;
+      margin-top: -$parallaxHeightAdjust;
     }
 
-    .angled-bg {
-      margin-top: $parallaxHeightAdjust * -2;
-    }
-
+    .angled-bg,
     .content {
-      margin-top: $parallaxHeightAdjust * -1.7;
+      margin-top: -42vw;
+    }
 
-      .row .col.image img {
-        width: 80%;
-      }
+    .content .row .col.image img {
+      width: 80%;
     }
 
     .project .card {
@@ -329,39 +327,21 @@ main.app.recovery {
     }
   }
 
-  @media (max-height: 700px) {
-    $parallaxHeightAdjust: 275px;
-
-    .overlay {
-      top: -$parallaxHeightAdjust;
-    }
-
-    // .angled-bg {
-    // }
-
-    .content {
-      margin-top: $parallaxHeightAdjust * -1.6;
-    }
-  }
-
   @media (max-width: 600px) {
     $recoveryNegativeMargin: 20px;
-    $parallaxHeightAdjust: 320px;
+    $parallaxHeightAdjust: 400px;
 
     .overlay {
-      top: -$parallaxHeightAdjust;
+      margin-top: -$parallaxHeightAdjust;
     }
 
-    .angled-bg {
-      margin-top: $parallaxHeightAdjust * -2;
-    }
-
+    .angled-bg,
     .content {
-      margin-top: $parallaxHeightAdjust * -1.75;
+      margin-top: -60vw;
+    }
 
-      .row .col.image img {
-        width: 100%;
-      }
+    .content .row .col.image img {
+      width: 100%;
     }
 
     .project .card {
@@ -384,40 +364,9 @@ main.app.recovery {
   }
 
   @media (max-width: 500px) {
-    $parallaxHeightAdjust: 350px;
-
-    .overlay {
-      top: -$parallaxHeightAdjust;
-
-      .parallax {
-        h1 {
-          font-size: 8rem;
-          letter-spacing: 10px;
-        }
-        h5 {
-          top: 37%;
-        }
-      }
-    }
-
-    .angled-bg {
-      margin-top: $parallaxHeightAdjust * -2;
-    }
-
-    .content {
-      margin-top: $parallaxHeightAdjust * -1.75;
-    }
-
     .constant h2 {
       font-size: 1.8rem;
       letter-spacing: 10px;
-    }
-  }
-
-  @media (max-width: 400px) {
-    .overlay .parallax h1 {
-      font-size: 7rem;
-      letter-spacing: 6px;
     }
   }
 }

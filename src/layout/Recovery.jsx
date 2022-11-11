@@ -125,20 +125,34 @@ export const RecoveryPage = () => {
         </div>
         <div className="cta">
           <h3>Did you invest in Coyote Coin?</h3>
-          <div className="row">
-            <div className="col">
-              Yes, I'd like to claim my BNB
-              <a href="/" className="btn">
-                Click Here
-              </a>
-            </div>
-            <div className="col">
-              Yes, I'd like to roll my BNB into EMBER
-              <a href="/" className="btn red">
-                Click Here
-              </a>
-            </div>
-          </div>
+          <p>
+            We will be launching a Dapp which will allow you to connect your
+            wallet and with the click of a button either claim your BNB or
+            reinvest your BNB into EMBER (tax free). The wallet you use MUST be
+            the one we have on file that was used to purchase Coyote Coin
+            (HOWL). Check back here on <strong>November 18th</strong> to claim
+            your tokens.
+          </p>
+          <p>
+            You will have <strong>7 days to claim your tokens</strong>. If you
+            do not claim within that time period they will be locked in the
+            recovery wallet for another 60 days. Our goal is to unlock the
+            recovery wallet every 60 days until all funds are returned.
+          </p>
+          <p>
+            Have additional questions? Please{" "}
+            <a
+              href="https://emberagency.zendesk.com/hc/en-us/requests/new"
+              target="_blank"
+              rel="noreferrer"
+            >
+              submit a request
+            </a>{" "}
+            to our helpdesk and we will get back to you as soon as we can.
+          </p>
+          <a href="/" className="btn">
+            Claim Your Tokens
+          </a>
         </div>
       </div>
       <div className="constant">
