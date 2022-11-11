@@ -319,6 +319,12 @@ main.app.recovery {
     }
   }
 
+  @media (max-width: 800px) {
+    .content {
+      margin-top: -200px;
+    }
+  }
+
   @media (max-height: 780px) {
     .overlay .parallax {
       h1 {
@@ -365,7 +371,7 @@ main.app.recovery {
       }
       h5 {
         color: $red;
-        top: 40%;
+        top: 38%;
       }
       p {
         display: none;
@@ -385,6 +391,12 @@ main.app.recovery {
     }
   }
 
+  @media (max-width: 680px) {
+    .content {
+      margin-top: -240px;
+    }
+  }
+
   @media (max-width: 600px) {
     $recoveryNegativeMargin: 20px;
 
@@ -392,8 +404,12 @@ main.app.recovery {
       letter-spacing: 15px;
     }
 
-    .content .row .col.image img {
-      width: 100%;
+    .content {
+      margin-top: -280px;
+
+      .row .col.image img {
+        width: 100%;
+      }
     }
 
     .project .card {
