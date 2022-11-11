@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { HashScroll } from "react-hash-scroll";
 import { ExternalButton } from "../components";
 import "../styles/Recovery.scss";
@@ -35,6 +36,9 @@ export const Recovery = () => {
                   stolen. Ember is proud to support those who were impacted by
                   the malicious attacks on Coyote.
                 </p>
+                <Link to="/recovery" className="pill red">
+                  Recovery Details
+                </Link>
               </div>
             </div>
             <ExternalButton color="red" href="mailto:support@emberagency.io">

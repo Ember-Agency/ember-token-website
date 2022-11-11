@@ -21,7 +21,7 @@ main.app.recovery {
 
   @media (max-height: 800px) {
     header {
-      padding: 20px 40px;
+      padding: 15px 40px;
     }
   }
 }
@@ -171,10 +171,6 @@ main.app.recovery {
       letter-spacing: 20px;
       text-align: center;
     }
-
-    .ocean {
-      margin-top: 15px;
-    }
   }
 
   .card {
@@ -191,6 +187,11 @@ main.app.recovery {
       max-width: 80%;
       width: 100%;
     }
+  }
+
+  .ocean {
+    height: 140px;
+    margin-top: -140px;
   }
 
   @media (max-width: 1000px) {
@@ -324,6 +325,23 @@ main.app.recovery {
       img {
         margin: -$recoveryNegativeMargin 0 0;
       }
+    }
+  }
+
+  @media (max-height: 700px) {
+    $parallaxHeightAdjust: 375px;
+
+    .overlay {
+      // top: -375px;
+      top: -$parallaxHeightAdjust;
+    }
+
+    .angled-bg {
+      margin-top: 0;
+    }
+
+    .content {
+      margin-top: $parallaxHeightAdjust * -1.7;
     }
   }
 

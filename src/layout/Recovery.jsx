@@ -1,3 +1,4 @@
+import { useEffect } from "react";
 import { Parallax, Waves } from "../components";
 import "../styles/RecoveryPage.scss";
 import logoCoyote from "../assets/logo-coyote.svg";
@@ -5,6 +6,10 @@ import imageMatches from "../assets/image-matches.png";
 import imageHeart from "../assets/image-heart.png";
 
 export const RecoveryPage = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <main id="recovery-page">
       <Parallax
@@ -138,8 +143,8 @@ export const RecoveryPage = () => {
       </div>
       <div className="constant">
         <h2>WE ARE THE CONSTANT</h2>
-        <Waves />
       </div>
+      <Waves />
     </main>
   );
 };
