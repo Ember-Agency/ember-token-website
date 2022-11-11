@@ -1,33 +1,42 @@
 {
   "files": {
-    "main.css": "/static/css/main.e68d175e.css",
-    "main.js": "/static/js/main.a82d7161.js",
+    "main.css": "/static/css/main.3c6e9546.css",
+    "main.js": "/static/js/main.abfe398c.js",
     "static/media/icon-security.png": "/static/media/icon-security.5d742609d21d679f2370.png",
     "static/media/bg-brickwall.jpg": "/static/media/bg-brickwall.f314c838811bc922a660.jpg",
+    "static/media/image-heart.png": "/static/media/image-heart.5f8308e5b4bf37ce41db.png",
+    "static/media/image-matches.png": "/static/media/image-matches.ac8570b564dfc2b25dcb.png",
     "static/media/ember_01.png": "/static/media/ember_01.feadadf75c6c055ef0a9.png",
     "static/media/image-nfts.svg": "/static/media/image-nfts.51dce7d2bc7c526c6522ed52b7828df6.svg",
     "static/media/icon-whitepaper.png": "/static/media/icon-whitepaper.ff0aa36f31931f25300b.png",
     "static/media/bg-nfts.jpg": "/static/media/bg-nfts.9243b490ebe0c500ab05.jpg",
+    "static/media/bg-burned-rose.jpg": "/static/media/bg-burned-rose.6afc241e8508985139dd.jpg",
     "static/media/ember_02.png": "/static/media/ember_02.aa3f0ddfb58deabc3f22.png",
     "static/media/logo-vertical.svg": "/static/media/logo-vertical.925e63031d1b732bee021fac699890b2.svg",
     "static/media/bio-batman.png": "/static/media/bio-batman.ff88d4a5273ef0eef5e9.png",
+    "static/media/mountains-2.svg": "/static/media/mountains-2.714971a402995c0f5417.svg",
     "static/media/bg-nft.jpg": "/static/media/bg-nft.aa157f0dccdeb4bd3943.jpg",
     "static/media/bio-redbeard.png": "/static/media/bio-redbeard.eabee7ee71f54f357615.png",
     "static/media/bg-embers.jpg": "/static/media/bg-embers.8b161eee3184b02d5fed.jpg",
+    "static/media/mountains-3.svg": "/static/media/mountains-3.2fb4df9ed4a1cc873285.svg",
+    "static/media/mountains-1.svg": "/static/media/mountains-1.e76ab3c8d91cdef8f27c.svg",
     "static/media/ember_03.png": "/static/media/ember_03.c4a0563d2bc30fe0e6f4.png",
     "static/media/logo-coyote.svg": "/static/media/logo-coyote.e072cab6fa4b7c2e2701127fd901276d.svg",
     "static/media/image-tokenomics.svg": "/static/media/image-tokenomics.1dcf8f13a3e2c66f2dc74888d59ffe43.svg",
     "static/media/logo.svg": "/static/media/logo.d7d6d670133955b93ff7120106f2c958.svg",
     "static/media/icon-token-reflections.svg": "/static/media/icon-token-reflections.aa6553aea87d429fbfd433f2c3446320.svg",
     "static/media/ember-icon.svg": "/static/media/ember-icon.7bd6714e0558976a88625d3ca327c272.svg",
+    "static/media/logo-white-ember-outline.svg": "/static/media/logo-white-ember-outline.68e8f63ecfee919e101e.svg",
     "static/media/icon-nft-rewards.svg": "/static/media/icon-nft-rewards.c726cdacb26d3d3ca9be702696ddde6b.svg",
+    "static/media/mountains-5.svg": "/static/media/mountains-5.0e6af3fa5cf2f9cd87e5.svg",
     "static/media/icon-agency-rewards.svg": "/static/media/icon-agency-rewards.41478b7af18f449dcfaa0deac2ff490b.svg",
     "index.html": "/index.html",
-    "main.e68d175e.css.map": "/static/css/main.e68d175e.css.map",
-    "main.a82d7161.js.map": "/static/js/main.a82d7161.js.map"
+    "static/media/mountains-4.svg": "/static/media/mountains-4.d7132486d9b23c67d040.svg",
+    "main.3c6e9546.css.map": "/static/css/main.3c6e9546.css.map",
+    "main.abfe398c.js.map": "/static/js/main.abfe398c.js.map"
   },
   "entrypoints": [
-    "static/css/main.e68d175e.css",
-    "static/js/main.a82d7161.js"
+    "static/css/main.3c6e9546.css",
+    "static/js/main.abfe398c.js"
   ]
 }
