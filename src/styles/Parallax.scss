@@ -4,7 +4,7 @@
   align-items: center;
   background: $tan;
   display: flex;
-  height: 100vh;
+  height: calc(100vh - 150px);
   justify-content: center;
   left: 0;
   overflow: hidden;
@@ -64,8 +64,8 @@
     div {
       position: absolute;
       bottom: 0;
-      left: 0;
-      width: 100%;
+      left: -6px;
+      width: calc(100% + 6px);
       height: 100%;
       background-position: 0 50%;
       background-repeat: no-repeat;
@@ -91,112 +91,6 @@
         background-image: url("../assets/mountains-5.svg");
         z-index: 0;
       }
-    }
-  }
-
-  @media (max-width: 900px) {
-    .parallax p {
-      padding: 0 5%;
-      top: calc(40% + 7rem);
-    }
-  }
-
-  @media (max-height: 890px) {
-    .parallax {
-      h1 {
-        font-size: 9rem;
-      }
-
-      h5 {
-        top: 28%;
-      }
-
-      p {
-        line-height: 1.6rem;
-        top: calc(40% + 5rem);
-      }
-    }
-  }
-
-  @media (max-height: 850px) {
-    .parallax h1 {
-      font-size: 8rem;
-    }
-  }
-
-  @media (max-height: 820px) {
-    .parallax {
-      h1 {
-        font-size: 7.5rem;
-      }
-      h5 {
-        display: none;
-      }
-      p {
-        line-height: 1.5rem;
-        top: calc(40% + 4rem);
-      }
-    }
-  }
-
-  @media (max-height: 780px) {
-    .parallax {
-      h1 {
-        font-size: 7rem;
-        top: 38%;
-      }
-
-      p {
-        top: calc(40% + 3rem);
-      }
-    }
-  }
-
-  @media (max-height: 740px) {
-    .parallax {
-      h1 {
-        font-size: 9rem;
-        top: 50%;
-      }
-
-      p {
-        display: none;
-      }
-    }
-  }
-
-  @media (max-width: 700px) {
-    .parallax {
-      h1 {
-        top: 50%;
-      }
-      h5 {
-        color: $red;
-        top: 40%;
-      }
-      p {
-        display: none;
-      }
-    }
-  }
-
-  @media (max-width: 600px) {
-    .parallax h1 {
-      letter-spacing: 15px;
-    }
-  }
-
-  @media (max-width: 500px) {
-    .parallax h1 {
-      font-size: 8rem;
-      letter-spacing: 10px;
-    }
-  }
-
-  @media (max-width: 400px) {
-    .parallax h1 {
-      font-size: 7rem;
-      letter-spacing: 6px;
     }
   }
 }
