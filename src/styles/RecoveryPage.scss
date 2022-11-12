@@ -86,6 +86,7 @@ main.app.recovery {
   }
 
   .content {
+    background: $tan;
     background: $off-white;
     padding: 0 4rem;
     position: relative;
@@ -281,59 +282,29 @@ main.app.recovery {
     }
   }
 
-  @media (max-height: 890px) {
+  @media (max-height: 830px) {
     .overlay .parallax {
       h1 {
-        font-size: 9rem;
-      }
-
-      h5 {
-        top: 28%;
+        font-size: 8rem;
       }
 
       p {
         line-height: 1.6rem;
-        top: calc(40% + 5rem);
+        top: calc(40% + 6rem);
       }
     }
   }
 
-  @media (max-height: 850px) {
-    .overlay .parallax h1 {
-      font-size: 8rem;
-    }
-  }
+  @media (max-height: 770px) {
+    .overlay {
+      margin: -$parallaxHeightAdjust 0 0;
 
-  @media (max-height: 820px) {
-    .overlay .parallax {
-      h1 {
-        font-size: 7.5rem;
-      }
-      h5 {
-        display: none;
-      }
-      p {
-        line-height: 1.5rem;
-        top: calc(40% + 4rem);
-      }
-    }
-  }
+      .parallax {
+        margin-top: 0;
 
-  @media (max-width: 800px) {
-    .content {
-      margin-top: -200px;
-    }
-  }
-
-  @media (max-height: 780px) {
-    .overlay .parallax {
-      h1 {
-        font-size: 7rem;
-        top: 38%;
-      }
-
-      p {
-        top: calc(40% + 3rem);
+        h5 {
+          top: 26%;
+        }
       }
     }
   }
@@ -349,11 +320,15 @@ main.app.recovery {
     }
   }
 
-  @media (max-height: 740px) {
+  @media (max-width: 600px), (max-height: 630px) {
     .overlay .parallax {
       h1 {
         font-size: 9rem;
         top: 50%;
+      }
+
+      h5 {
+        top: 30%;
       }
 
       p {
@@ -364,19 +339,6 @@ main.app.recovery {
 
   @media (max-width: 700px) {
     $recoveryNegativeMargin: 30px;
-
-    .overlay .parallax {
-      h1 {
-        top: 50%;
-      }
-      h5 {
-        color: $red;
-        top: 38%;
-      }
-      p {
-        display: none;
-      }
-    }
 
     .content .row .col.image img {
       width: 80%;
@@ -391,25 +353,11 @@ main.app.recovery {
     }
   }
 
-  @media (max-width: 680px) {
-    .content {
-      margin-top: -240px;
-    }
-  }
-
   @media (max-width: 600px) {
     $recoveryNegativeMargin: 20px;
 
-    .overlay .parallax h1 {
-      letter-spacing: 15px;
-    }
-
-    .content {
-      margin-top: -280px;
-
-      .row .col.image img {
-        width: 100%;
-      }
+    .content .row .col.image img {
+      width: 100%;
     }
 
     .project .card {
@@ -428,6 +376,13 @@ main.app.recovery {
         background-size: 40%;
         font-size: 2.5rem;
       }
+    }
+  }
+
+  @media (max-height: 560px) {
+    .overlay .parallax h1 {
+      top: 55%;
+      z-index: 4;
     }
   }
 
@@ -461,6 +416,19 @@ main.app.recovery {
     .constant h2 {
       font-size: 1.8rem;
       letter-spacing: 10px;
+    }
+  }
+
+  @media (max-height: 480px) {
+    .overlay .parallax {
+      h1 {
+        top: 68%;
+      }
+
+      h5 {
+        color: $red;
+        top: 36%;
+      }
     }
   }
 

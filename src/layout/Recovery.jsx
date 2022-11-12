@@ -23,7 +23,6 @@ export const RecoveryPage = () => {
             have an unapologetic commitment to shining light in the dark alleys
             of crypto and wrap our efforts with heavy governance and protection."
       />
-      <div className="angled-bg"></div>
       <div className="content">
         <div className="row">
           <div className="col">

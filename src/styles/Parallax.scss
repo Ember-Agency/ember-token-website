@@ -29,7 +29,7 @@
       margin: 0;
       mix-blend-mode: overlay;
       text-transform: uppercase;
-      top: 40%;
+      top: 42%;
       transform: translate(-50%, -50%);
       z-index: 3;
     }
@@ -90,6 +90,12 @@
       &.five {
         background-image: url("../assets/mountains-5.svg");
         z-index: 0;
+      }
+    }
+
+    @media (max-width: 700px), (max-height: 740px) {
+      div {
+        background-size: cover;
       }
     }
   }
