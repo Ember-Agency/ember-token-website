@@ -69,25 +69,10 @@ main.app.recovery {
     }
   }
 
-  .angled-bg,
-  .content {
-    min-width: 360px;
-  }
-
-  .angled-bg {
-    display: none;
-    background: $off-white;
-    margin-top: -3.75vw;
-    min-height: 500px;
-    position: absolute;
-    transform: skewY(-3deg);
-    width: 100vw;
-    z-index: 10;
-  }
-
   .content {
     background: $tan;
     background: $off-white;
+    min-width: 360px;
     padding: 0 4rem;
     position: relative;
     width: 100vw;
