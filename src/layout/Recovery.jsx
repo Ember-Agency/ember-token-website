@@ -149,7 +149,12 @@ export const RecoveryPage = () => {
             </a>{" "}
             to our helpdesk and we will get back to you as soon as we can.
           </p>
-          <a href="/" className="btn">
+          <a
+            href="https://recovery.embertoken.io"
+            target="_blank"
+            rel="noreferrer"
+            className="btn"
+          >
             Claim Your Tokens
           </a>
         </div>
