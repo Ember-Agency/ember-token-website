@@ -39,6 +39,7 @@ export const NFT = () => {
         handleThanks();
       })
       .catch((_err) => {
+        console.error(_err);
         handleError();
       });
   };
