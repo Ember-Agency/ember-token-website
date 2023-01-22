@@ -71,7 +71,7 @@ export const NFT = () => {
               </p>
               <p>
                 Due to the personalized service and custom nature of these,
-                pricing will start at <strong>3 BNB</strong> and will be quoted
+                pricing will start at <strong>4 BNB</strong> and will be quoted
                 based on the desired level of detail and uniqueness.
               </p>
             </div>
@@ -130,9 +130,9 @@ export const NFT = () => {
                   value={toSend.budget}
                 >
                   <option value="none">- Select -</option>
-                  <option value="standard">3-6 (Standard)</option>
-                  <option value="detailed">6-9 (Very Detailed)</option>
-                  <option value="max">10+ (Full Send)</option>
+                  <option value="standard">4-6 (Standard)</option>
+                  <option value="detailed">6-8 (Very Detailed)</option>
+                  <option value="max">8-10 (Full Send)</option>
                 </select>
                 <label htmlFor="message">
                   Custom Order Details <sup>*</sup>
